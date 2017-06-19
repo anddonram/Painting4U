@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Painting4U - {% block titulo %}{% endblock %}</title>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+</head>
+<body>
+    <header>
+        <nav class="blue-grey lighten-1" role="navigation">
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                
+                <li><a href="\cuadrosTitle">Buscar cuadros por título</a></li>
+                <li><a href="\cuadrosAuthor">Buscar cuadros por autor</a></li>
+                <li><a href="\cuadrosDescription">Buscar cuadros por descripción</a></li> 
+            </ul>
+            <ul id="dropdown2" class="dropdown-content">
+            
+                <li><a href="\cuadrosTitle">Buscar cuadros por título</a></li>
+                <li><a href="\cuadrosAuthor">Buscar cuadros por autor</a></li>
+                <li><a href="\cuadrosDescription">Buscar cuadros por descripción</a></li>
+
+            </ul>
+
+            <div class="nav-wrapper container"><a id="logo-container" href="\" class="brand-logo">Painting4U</a>
+              <ul class="right hide-on-med-and-down">
+                
+                <li><a href="\cuadrosTitle">Buscar cuadros por título</a></li>
+                <li><a href="\cuadrosAuthor">Buscar cuadros por autor</a></li>
+                <li><a href="\cuadrosDescription">Buscar cuadros por descripción</a></li>
+
+              </ul>
+
+              <ul id="nav-mobile" class="side-nav">
+                
+                 <li><a href="\cuadrosTitle">Buscar cuadros por título</a></li>
+                <li><a href="\cuadrosAuthor">Buscar cuadros por autor</a></li>
+                <li><a href="\cuadrosDescription">Buscar cuadros por descripción</a></li>
+
+              </ul>
+              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1 class="header center indigo-text">{% block encabezado %}{% endblock %}</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block contenido %}{% endblock %}
+    </main>
+
+    <br>
+
+    <footer class="page-footer indigo">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l8">
+              <h5 class="white-text">Painting4U</h5>
+              <p class="grey-text text-lighten-4">
+                Se desea construir una página web que permita ver las mejores obras de arte de todo el mundo,
+                con parámetros de busca totalmente rediseñados para todo tipo de usuarios. Desde búsquedas
+                por autor y títulos, hasta por palabras claves que definan el cuadro.
+                <br>Además de todo esto, se tienen a manos las últimas noticias de arte.
+              </p>
+            </div>
+            <div class="col s12 m4 l4">
+              <h5 class="white-text">Enlaces de interés</h5>
+              <ul>
+                <li><a class="white-text" href="https://www.wikiart.org/">Wikiart</a></li>
+                <li><a class="white-text" href="https://es.wikipedia.org/wiki/Portal:Arte">Wikipedia: portal arte</a></li>
+                <li><a class="white-text" href="http://elpais.com/tag/arte/a">EL PAÍS: arte</a></li>
+                <li><a class="white-text" href="http://www.abc.es/cultura/arte/">ABC: arte</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Made by <a class="indigo-text text-lighten-3">Andrés Doncel & Andrés Jiménez & José Gavilán</a>
+              - 31/12/2016
+          </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript --><!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+    <script>
+        $(".button-collapse").sideNav();
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.carousel.carousel-slider').carousel({full_width: true});
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+</body>
+</html>

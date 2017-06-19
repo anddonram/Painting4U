@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load apptags %}
+{% block titulo %}Inicio{% endblock %}
+
+{% block encabezado %}Painting4U{% endblock %}
+
+{% block contenido %}
+    <div class="section">
+        <div class="center">
+            <h5 class="header">Qué es Painting4U</h5>
+            <p> Las pinturas son obras de arte, atendiendo a su sentido estético Ernst Gombrich dice que:
+                "No hay nada de malo en que nos deleitemos con la pintura de un paisaje porque nos recuerda nuestra casa o
+                en un retrato porque nos recuerda un amigo, ya que como hombres que somos, cuando miramos una obra de arte
+                estamos sometidos al recuerdo de una multitud de cosas que para bien o para mal influyen sobre nuestros gustos."</p>
+        </div>
+        <div class="parallax-container">
+          <div class="parallax"><img src="https://uploads5.wikiart.org/images/raphael/school-of-athens-detail-from-right-hand-side-showing-diogenes-on-the-steps-and-euclid-1511.jpg"></div>
+        </div>
+        <div class="center">
+            <p> Una sociedad que está en continuo cambio, sin fijeza en nada, le hace falta pararse para contemplar el arte y ver
+                lo que antes vieron nuestros padres: Belleza y Bien, para, finalemente, llegar a la Verdad. Es un camino arduo y
+                también costoso, pero no por ello poco grtificante. Por ello, invito al usuario a detenerse y ver en nuestra aplicación
+                un remanso de paz interior.</p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="section">
+        <h5 class="header center">Agenda Cultural</h5>
+        <div class="carousel carousel-slider center" data-indicators="true">
+        {% for dict in agenda %}
+            <div class="carousel-item blue-grey lighten-1">
+                <h3 class="indigo-text">{{ dict|get_value_from_dict:'title'}}</h3>
+                <h5 class="indigo-text">({{ dict|get_value_from_dict:'date'}})</h5>
+                <p class="white-text">{{ dict|get_value_from_dict:'description'}}</p>
+                <br>
+                <p> <a class="btn waves-effect white grey-text darken-text-2" href="{{ dict|get_value_from_dict:'link'}}">Más</a></p>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load apptags %}
+
+{% block titulo %}{{ dict|get_value_from_dict:'titulo'}}{% endblock %}
+
+{% block encabezado %}{{ dict|get_value_from_dict:'titulo'}}{% endblock %}
+
+{% block contenido %}
+{%if dict|get_value_from_dict:'autor' != None %}
+    <div class="row section">
+    <div class="col s12 m6 l6">
+        <img class="responsive-img materialboxed" src="{{ dict|get_value_from_dict:'imagen'}}">
+    </div>
+    <div class="col s12 m6 l6">
+        <h6><a href="/autor/{{ dict|get_value_from_dict:'autor'}}/">{{ dict|get_value_from_dict:'autor'}}</a></h6>
+        <br>
+        <p>Corriente: <strong>{{ dict|get_value_from_dict:'corriente'}}</strong></p>
+        <p>Localización: <strong>{{ dict|get_value_from_dict:'localizacion'}}</strong></p>
+        <br>
+        <blockquote>
+            {{ dict|get_value_from_dict:'descripcion'}}
+        </blockquote>
+    </div>
+    </div>
+
+    <br><br>
+    
+    <div class="row section">
+        <h5 class="header center">También te podría interesar:</h5>
+    {% for dict in more %}
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light crop">
+                  <img class="activator" src="{{ dict|get_value_from_dict:'imagen'}}">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">{{ dict|get_value_from_dict:'titulo'}}
+                      ({{ dict|get_value_from_dict:'autor'}})
+                      <i class="material-icons right">more_vert</i></span>
+                  <p> <a href="\cuadro\{{ dict|get_value_from_dict:'autor'}}\{{ dict|get_value_from_dict:'titulo'}}">Ver cuadro</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+                  <p>{{ dict|get_value_from_dict:'descripcion'}}</p>
+                </div>
+              </div>
+        </div>
+    {% endfor %}
+     </div>
+    <div class="col s12 m6 l4">
+{%endif%}
+{% endblock %}

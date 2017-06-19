@@ -1,0 +1,1000 @@
+
+
+<!DOCTYPE html >
+<html>
+<head>
+    <title>Tres cipreses, 2008 - Claudio Castillo - WikiArt.org</title>
+    <!-- Readonly API Available. Contact info at socialtalents.com -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="canonical" href="https://www.wikiart.org/en/claudio-castillo/tres-cipreses" />
+    <link rel="dns-prefetch" href="//uploads.wikiart.org/">
+    <link rel="dns-prefetch" href="//uploads.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads0.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads1.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads2.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads3.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads4.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads5.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads6.wikiart.org">
+    <link rel="dns-prefetch" href="//uploads7.wikiart.org">
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c602447f6c","applicationID":"14311916","transactionName":"MQADZEECX0dRV00MXQhKLGZwTGFVWVpNDFwBJg5eRxFeWFxRS0pkDwAW","queueTime":0,"applicationTime":33,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="Tres cipreses by Claudio Castillo. Digital Art" />
+    <meta property="og:url" content="https://www.wikiart.org/en/claudio-castillo/tres-cipreses" />
+    <meta property="og:title" content="Tres cipreses, 2008 - Claudio Castillo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://uploads5.wikiart.org/00103/images/claudio-castillo/tres-cipreses.jpg" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="360" />
+    <meta property="og:site_name" content="www.wikiart.org" />
+    <meta property="og:description" content="Watercolor, animation, software. Synchronized lunar and tidal phases.
+Random, non-linear, generative artwork. Software on computer. One chance of repetition in approximately 8 Trillion years.
+http://www.claudiocastillo.com/tres-cipreses.html">
+    <meta property="fb:app_id" content="1038592866179110"/>
+
+    <meta name="twitter:site" content="https://www.wikiart.org/en/claudio-castillo/tres-cipreses">
+    <meta name="twitter:description" content="Watercolor, animation, software. Synchronized lunar and tidal phases.
+Random, non-linear, generative artwork. Software on computer. One chance of repetition in approximately 8 Trillion years.
+http://www.claudiocastillo.com/tres-cipreses.html">
+    <meta name="twitter:image:src" content="https://uploads5.wikiart.org/00103/images/claudio-castillo/tres-cipreses.jpg">
+    <meta name="twitter:domain" content="www.wikiart.org">
+
+    <link type="image/x-icon" rel="shortcut icon" href="/Content/images/favicon.ico" />
+    <link type="image/x-icon" rel="icon" href="/Content/images/favicon.ico" />
+                <style type="text/css">html,body{color:#000;background:#fff}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,ruby,section,summary,dialog,meter,rt,rp,command,datalist,keygen,output,source,time,mark,audio,video,track,progress{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}article,aside,details,summary,figcaption,progress footer,header,hgroup,menu,nav,section{display:block}bdi,figure,mark,meter,ruby,rt,rp,time,wbr{display:inline}body{line-height:1}img,fieldset,a img{border:0}img{-ms-interpolation-mode:bicubic;vertical-align:middle}:active,:focus{outline:none;-moz-outline-style:none}a:focus{outline:none}ul,ol{list-style:none}q:before,q:after{content:''}blockquote,q{quotes:none}s,ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0;empty-cells:show;font-size:inherit}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal}caption,th{text-align:left}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}textarea{overflow:auto;vertical-align:top}button,input{line-height:normal}button[disabled],input[disabled]{cursor:default}button{overflow:visible}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}legend{color:#000}b,strong{font-weight:bold}small{font-size:75%}[hidden]{display:none}audio:not([controls]){display:none;height:0}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsDrvev4WAjW489CRDHIkJ90.woff2) format('woff2');unicode-range:U+460-52F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsCGXDOnx9ptx3UTSPTrfsgk.woff2) format('woff2');unicode-range:U+400-45F,U+490-491,U+4B0-4B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsAZ98xO_Wnt-JIem4AuLGfs.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsE1G989qbVg6RT5ly5jB8V8.woff2) format('woff2');unicode-range:U+370-3FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsJ84zb0nVte6liF9gGtpo1Y.woff2) format('woff2');unicode-range:U+102-103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsD86pq2NkPzVgw_9lpT6RGI.woff2) format('woff2');unicode-range:U+100-24F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsDAdhzWOYhqHvOZMRGaEyPo.woff2) format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nDW5FUgIgejJvrHuLWqrSMw.woff2) format('woff2');unicode-range:U+460-52F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nA30BZHTGu2N_DqssQcMQNQ.woff2) format('woff2');unicode-range:U+400-45F,U+490-491,U+4B0-4B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nPDoBG10JtAX-GAwn6iwU1Y.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nGhQuge17febRYSUkWKdLWA.woff2) format('woff2');unicode-range:U+370-3FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nBBtmDLrZTTOm3p1EhiGCXc.woff2) format('woff2');unicode-range:U+102-103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nEV356qNqHCUb41pS3zqMSE.woff2) format('woff2');unicode-range:U+100-24F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nHm2hrkyco9jQ3NKMXpgOBg.woff2) format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}.noselect{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}@media(max-width:709px)and (min-width:0){.fit-width{width:100%}.column-width{width:230px}}@media(max-width:920px)and (min-width:690px){.fit-width{width:690px}.column-width{width:230px}}@media(max-width:1150px)and (min-width:920px){.fit-width{width:920px}.column-width{width:230px}}@media(max-width:1380px)and (min-width:1150px){.fit-width{width:1150px}.column-width{width:230px}}@media(max-width:1500px)and (min-width:1380px){.fit-width{width:1380px}.column-width{width:230px}}@media(max-width:1800px)and (min-width:1500px){.fit-width{width:1500px}.column-width{width:300px}}@media(max-width:2100px)and (min-width:1800px){.fit-width{width:1800px}.column-width{width:300px}}@media(max-width:2400px)and (min-width:2100px){.fit-width{width:2100px}.column-width{width:300px}}@media(max-width:2700px)and (min-width:2400px){.fit-width{width:2400px}.column-width{width:300px}}@media(max-width:3100px)and (min-width:2700px){.fit-width{width:2700px}.column-width{width:300px}}@media(min-width:3000px){.fit-width{width:3000px}.artwork-info-block{width:35%;margin:0 auto}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.top-navi .navigation .search i.fontello-icon{line-height:54px!important}}.st-masonry-tile .artist-link{display:inline-block;vertical-align:bottom;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 90px)}a.truncate{display:none}a.external:after{display:inline-block;content:'';width:10px;height:10px;margin-left:4px;background-image:url(https://uploads.wikiart.org/Content/images/external_link_blue.svg)}a.bigexternal:after{display:inline-block;content:'';width:20px;height:20px;vertical-align:sub;margin-left:4px;background-image:url(https://uploads.wikiart.org/Content/images/external_link_blue.svg)}.menuMobileItem-visible{display:table-cell}.menuMobileItem-hidden{display:none}@media(min-width:719px){#menuMobileItem{display:none!important}}@media(max-width:720px){.navigation li.search:not(.disable-media-queries) input[type='text'],.navigation li.search:not(.disable-media-queries) a.close,.navigation li.language{display:none!important}.navigation li.search:not(.disable-media-queries) i{border-right:solid 1px #e7ebef!important}.navigation li.search:not(.disable-media-queries) i:hover{background-color:#eaeef2}#firstMenuItem>a{line-height:40px!important;height:40px!important;font-size:30px!important}#actionMenuItem{display:none!important}#menuMobileItem{display:table-cell;border-left:1px solid #e7ebef}.top-navi .navigation>li{height:40px!important}.top-navi .navigation>li>a{line-height:40px!important;padding:0 10px!important}.top-navi .navigation .search i.fontello-icon,.top-navi .navigation .search .link,.top-navi .navigation .search input[type="text"],.top-navi .navigation .search .close{width:40px!important;height:40px!important;line-height:40px!important}.top-navi .dark{top:43px!important}hgroup{height:40px!important}hgroup h1,.h1{font-size:17px!important;line-height:38px!important}hgroup h2,.h2{font-size:17px!important;line-height:38px!important}hgroup h2.arrow,hgroup h2.arrow a{width:40px!important;height:40px!important;line-height:40px!important}hgroup h2.arrow.left{right:40px}hgroup.fix-arrows h1{width:calc(100% - 80px)!important}.artists-list>li{text-align:center;margin:0 5px 5px 5px!important}.artists-list>li>ul{height:auto!important;margin-bottom:3px!important}.artists-list>li>a{display:inline-block!important;float:none!important;padding:0!important;margin:0!important}.artists-list>li>s{display:inline-block}.mobile-only-inline-block{display:inline-block!important}.mobile-only-block{display:block!important}.desktop-only-inline-block,.desktop-only-block{display:none!important}.dictionaries-list{-webkit-column-count:2!important;-moz-column-count:2!important;column-count:2!important;padding-left:10px}.wiki-tiles ul.title{display:none!important}.wiki-tiles a.massonary-title-mobile{display:block!important}#supersized .title{display:none!important}.artists-list .total{display:none!important}.artist-title{height:40px!important}.artwork-info-block .main-content .image img{box-sizing:border-box;padding-left:3px;padding-right:3px}.thumbnails_data .thumbnail_item{width:50%!important}.navigation li.search:not(.disable-media-queries) ins{padding-right:40px!important;padding-left:0!important}}#autocomplete-container .ui-menu-item a{width:100%;overflow:hidden;text-overflow:ellipsis;display:block}@media(min-width:720px)and (max-width:920px){hgroup{height:40px!important;line-height:40px!important}hgroup h1,hgroup h2{font-size:18px!important;line-height:37px!important}}@media(min-width:921px)and (max-width:1150px){hgroup h1,hgroup h2{font-size:26px!important}}@media(max-width:650px){hgroup{height:auto!important;line-height:30px!important}hgroup h1.title-main{display:block!important}hgroup h1.active{margin-bottom:-2px!important}}.sticky-placeholder{}.artist-menu.sticked{position:fixed;top:0;transform:translateX(-50%);left:50%;box-shadow:0 5px 5px rgba(0,0,0,.1);background:#fff;z-index:1000}.sticky-header.sticked{position:fixed;top:0;transform:translateX(-50%);left:50%;box-shadow:0 5px 5px rgba(0,0,0,.1);background:#fff;z-index:1000;height:40px;font:20px 'Roboto Condensed';line-height:40px}.sticky-header.sticked .title-main{height:40px;line-height:40px;font-size:20px}.sticky-header.sticked .title-main .title-part{height:40px;line-height:40px;font-size:20px}.artist-menu.artist-menu-top{border-top:none!important}.menu-donate.sticked{width:100%;max-width:700px}.artist-header-featured{border-bottom:1px solid #e7ebef;border-top:1px solid #e7ebef;margin-bottom:25px;margin-top:10px;padding-top:30px;padding-bottom:5px}.artist-header-featured hgroup{border-top:solid 1px #e7ebef;border-bottom:none;padding-top:5px;padding-bottom:5px;border-top:none!important;padding-bottom:0!important;padding-top:0!important;line-height:30px!important;height:30px!important}.artist-header-featured hgroup h2{font-size:24px!important;line-height:30px!important}a.view-all-works{display:block;line-height:24px;font:20px 'Roboto Condensed';text-transform:uppercase;margin:12px 0}.related-dictionary-thumbnail-container{display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row;flex-wrap:wrap}.related-dictionary-thumbnail{height:260px;box-sizing:border-box;flex:0 0 auto;margin-bottom:40px;padding:0 15px}@media(max-width:709px)and (min-width:0){.related-dictionary-thumbnail{width:50%;margin-bottom:15px}}.related-dictionary-thumbnail-title{display:block;color:#1a2127;font-size:14px;font-weight:bold;font-family:Verdana,sans-serif;height:20px;line-height:20px;text-align:center;margin:8px 0 auto 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.related-dictionary-thumbnail-title:hover,.related-dictionary-thumbnail-title:active,.related-dictionary-thumbnail-title:hover:visited,.related-dictionary-thumbnail-title:hover:link{text-decoration:none;color:#1a2127}.related-dictionary-thumbnail-title-sub{color:#1a2127;font-size:14px;font-family:Verdana,sans-serif;height:20px;line-height:20px;text-align:center;cursor:default;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.related-dictionary-thumbnail-title-sub:hover{cursor:default}.related-dictionary-thumbnail-image{display:block;height:210px;border:1px solid #e7ebef;background-image:url('/Content/images/FRAME-300x240.jpg');background-repeat:no-repeat;background-position:50% 50%;background-size:contain}.donate-header{height:40px;line-height:40px;text-align:center}@media(max-width:320px){.dictionaries-list{-webkit-column-count:1!important;-moz-column-count:1!important;column-count:1!important;padding-left:10px}.dictionaries-list>ul>li{display:block!important}}@media(max-width:450px){.artists-group-list>li{text-align:center}}.mobile-only-inline-block{display:none}.mobile-only-block{display:none}.desktop-only-inline-block{display:inline-block}.desktop-only-block{display:block}.wiki-tiles a.massonary-title-mobile{color:#1a2127;font-family:Verdana,sans-serif;line-height:18px;height:40px;margin:10px 20px 10px 0;display:block;overflow:hidden}.wiki-tiles a.massonary-title-mobile span{width:100%;display:inline-block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.wiki-tiles a.massonary-title-mobile span.artist-name{font-size:12px}.wiki-tiles a.massonary-title-mobile span.artwork-name{font-size:14px}.btn-more-container{margin-left:auto;margin-right:auto;text-align:center}.btn-more{height:35px;font-family:Verdana,sans-serif;font-size:14px;padding:0 50px;border-radius:5px;vertical-align:middle;cursor:pointer;border:0;background:#666;color:#fff}.btn-more-container .countBlock{font-family:Verdana,sans-serif;font-size:14px;color:#b43728;font-weight:bold;margin:20px 0}.btn-more:hover{background:#b43728}.btn-more-loader:before{content:'';display:inline-block;height:35px;width:35px;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/cube_loader.svg) 50% 50% no-repeat}.top-navi{border-bottom:solid 1px #e7ebef}.top-navi a{color:#1a2127}.top-navi a:hover{color:#1a2127}.top-navi .navigation{display:table;border:0;border-spacing:0;position:relative;background-color:#fff;margin:0 auto;margin-top:-3px}.top-navi .navigation>li{display:table-cell;vertical-align:middle;height:47px;border-top:solid 3px #1a2127;white-space:nowrap}.top-navi .navigation>li>a{display:block;height:100%;font:bold 16px 'Roboto Condensed';line-height:47px;text-transform:uppercase;border-right:solid 1px #e7ebef;padding:0 25px}.top-navi .navigation>li>a:hover,.top-navi .navigation .light.active>a,.top-navi .navigation .language.active>a,.top-navi .navigation .login.active>a{background-color:#eaeef2}.top-navi .navigation>li#firstMenuItem{border-left:solid 1px #e7ebef}.top-navi .navigation>li.language{border-right:solid 1px #e7ebef}.top-navi .navigation>li#firstMenuItem>a{box-sizing:border-box;height:auto;padding:0 20px;display:block;height:47px;overflow:hidden;font:38px 'Georgia',serif;line-height:47px;color:#b43728}.top-navi .navigation>li.menu-mobile .switch{width:150px}.top-navi .navigation>li.menu-mobile{min-width:49px;box-sizing:border-box}.top-navi .navigation>li.menu-mobile>a{display:block;position:relative;margin:0;padding:0}.top-navi .navigation>li.menu-mobile>a>span.sandwich{display:block;width:30px;height:5px;position:absolute;top:17px;left:10px;background:#b43728}.top-navi .navigation>li.menu-mobile>a>span.sandwich:before{content:"";display:block;width:30px;height:5px;position:absolute;top:-11px;background:#b43728}.top-navi .navigation>li.menu-mobile>a>span.sandwich:after{content:"";display:block;width:30px;height:5px;position:absolute;top:11px;background:#b43728}#menuMobileItem ins.header{display:table-cell;vertical-align:central;height:30px;line-height:30px;color:#91a4b6;font-weight:bold}#menuMobileItem ins.header{font-weight:normal;border-bottom:solid 1px #28333c;font-weight:bold}.top-navi .navigation>li.active{border-top-color:#0057a3}.top-navi .navigation>li.section{border-top-color:#b43728}.top-navi .navigation .light>a{position:relative}.top-navi .navigation .light.active>a:before,.top-navi .navigation .language.active>a:before,.top-navi .navigation .login.active>a:before{position:absolute;bottom:0;left:50%;content:'';display:block;width:0;height:0;margin-left:-3px}.top-navi .navigation .light.active>a:before,.top-navi .navigation .language.active>a:before,.top-navi .navigation .login.active>a:before{border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #1a2127}.top-navi .navigation .language{position:relative}.top-navi .navigation .language>a{position:relative;border-right:0;border-left:solid 1px #eee}.top-navi .navigation .language .switch{left:1px}.top-navi .navigation>li.active .switch{display:block}.top-navi .navigation .about>a{border-right:0}.top-navi .navigation .login>a{border-right:0}.top-navi .navigation .login{position:relative}.top-navi .navigation .login .switch{width:300px;right:1px;padding-top:25px}.top-navi .navigation .login ins{display:block;padding-bottom:15px}.top-navi .navigation .login input[type="text"],.top-navi .navigation .login input[type="password"]{width:280px}.top-navi .navigation .login input[type="submit"]{display:block;width:100%;border:0;background-color:#fff;padding:7px 0;margin:0;font:16px 'Roboto Condensed';font-style:normal;color:#1a2127;text-transform:uppercase}.top-navi .navigation .login input[type="submit"]:hover{background-color:#eaeef2}.top-navi .navigation .login .forgot-password{float:right;color:#91a4b6;line-height:inherit;margin-top:1px}.top-navi .navigation .search-mobile ins{position:relative;display:block;font-size:6px;width:70px;height:21px;margin-top:17px}.search-input-container{position:relative;display:block;font-size:6px;padding-left:55px;padding-right:20px}.top-navi .navigation .search-mobile .border-container{display:block;height:58px;border:solid 1px transparent;border-right:solid 1px #eee;box-sizing:border-box;padding:0;margin:0}.top-navi .navigation .search{width:100%}.top-navi .navigation .search ins{display:block;padding-left:50px;padding-right:55px}.top-navi .navigation .search{position:relative}.top-navi .navigation .search .link{position:absolute;left:0;top:0;display:inline-block;height:47px;width:47px;margin:0;padding:0;border:0;box-sizing:border-box}.top-navi .navigation .search .close{position:absolute;right:0;top:0;display:inline-block;height:58px;width:58px;margin:0;padding:0;border:0;box-sizing:border-box}.top-navi .navigation .search .link:hover,.top-navi .navigation .search .close:hover{background:#fff}.top-navi .navigation .search i.fontello-icon{font-family:"fontello";font-style:normal;font-weight:normal;display:inline-block;text-decoration:inherit;font-size:28px;width:47px;height:47px;line-height:47px;margin:0;padding:0;border:0;text-align:center;vertical-align:middle;text-transform:none;-webkit-font-smoothing:antialiased}.top-navi .navigation .search input[type="text"]{display:inline-block;width:100%!important;border:0;margin:0;padding:0;font-size:16px}.top-navi .navigation .dark{display:none}.top-navi .navigation .light.active .dark{display:block}.top-navi .navigation .dark{position:absolute;z-index:999;top:51px;right:0;left:0}.top-navi .navigation .dark.menu-items{left:auto}.top-navi .navigation .dark{height:auto;overflow:hidden;background-color:#1a2127;border:0;padding:20px}.top-navi .navigation .dark.mobile.artist{width:150px;margin-left:35px}.top-navi .navigation .dark.mobile.painting{width:150px;margin-left:155px}.top-navi .navigation .dark{-webkit-box-shadow:0 5px 5px rgba(0,0,0,.2);-moz-box-shadow:0 5px 5px rgba(0,0,0,.2);box-shadow:0 5px 5px rgba(0,0,0,.2)}.top-navi .navigation .dark a{line-height:30px;color:#91a4b6;display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.top-navi .navigation .dark a:hover{color:#fff}.top-navi .navigation .dark .top .active a{color:#fff}.top-navi .navigation .dark .top.mobile .active a{color:#91a4b6}.top-navi .navigation .dark .top{float:left}.top-navi .navigation .dark .top>li{font-weight:bold;border-right:solid 1px #28333c}.top-navi .navigation .dark .top>li.active{border-right:solid 4px #28333c}.top-navi .navigation .dark .top.mobile>li{border-right:none!important;font-weight:bold}.top-navi .navigation .dark .sub{float:left;border-left:solid 1px #28333c;box-sizing:border-box}.top-navi .navigation .dark .sub .group{display:none;overflow:hidden}.top-navi .navigation .dark .sub .group.active{display:block}.top-navi .navigation .dark .sub .group .column{float:left}.top-navi .navigation .dark .sub .group .column ins{display:block;margin-left:20px}.top-navi .navigation .dark .paintingSchool a{line-height:17px}.top-navi .navigation .dark .paintingSchool ins{height:40px}#loginMenuItem>a{border-left:solid 1px #e7ebef}#adminMenuItem>a{border-left:solid 1px #e7ebef}#actionMenuItem>a{border-right:0;border-left:solid 1px #e7ebef}.admin-menu-item{padding-left:60px!important;padding-right:20px!important}@media(max-width:720px){.top-navi .navigation>li>a.admin-menu-item{padding:0 24px!important}.admin-menu-item .user-name{display:none}.admin-menu-item+.switch ins a:not(.mobile-visible){display:none}.admin-menu-item i{width:41px!important;height:40px!important;background-size:38px 38px!important}}@media(min-width:720px)and (max-width:1024px){.admin-menu-item{padding-right:0!important}.admin-menu-item .user-name{display:none}}.light.active .admin-menu-item+.switch{position:absolute;right:0}.admin-menu-item i{display:inline-block;position:absolute;left:5px;top:0;width:47px;height:47px;text-align:center;background:url(https://uploads.wikiart.org/Content/images/profile_small.svg);background-position:50% 50%;background-repeat:no-repeat}.admin-menu-item i::before{box-sizing:border-box;border:1px solid #000;border-radius:50%;padding:5px!important;width:36px;height:36px}.artist-menu-mobile-wrapper{width:100%}.artist-menu-mobile-wrapper.fixed{background:#fff;position:fixed;top:0;z-index:1000}.artist-menu-mobile{height:40px;line-height:40px;font-family:'Roboto Condensed',Verdana,sans-serif;font-size:17px;padding:0 5px;border-bottom:solid 1px #e7ebef}.artist-menu-mobile .artist-name{display:inline-block;max-width:45%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;color:#b43728!important;text-transform:uppercase;padding-right:5px;box-sizing:border-box}.artist-menu-mobile .selectbox{float:right;display:inline-block;max-width:55%;font-size:14px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.artist-menu-mobile .selectbox select{width:100%;font-size:16px;word-wrap:initial}.artist-menu-mobile .selectbox select.ios{vertical-align:middle;height:38px}.artwork-info-block-container>.text{clear:both;border-top:solid 1px #e7ebef;padding:15px 5px;order:5}.artwork-info-block .main-content{display:flex;margin-bottom:10px}.artwork-info-block .main-content .image{box-sizing:border-box;background-size:contain;background-repeat:no-repeat;background-position:50% 50%}.artwork-info-block .main-content .image .buttons{position:relative;display:block;padding-bottom:5px;margin-top:10px}.artwork-info-block .main-content .info{box-sizing:border-box;padding:0 0 0 20px}.main-content .info .info-line{margin:0}.main-content .info .info-line{font-weight:normal;line-height:28px;text-align:justify}.main-content .info .info-line .title{color:#91a4b6;text-align:left!important}.main-content .info .info-line.references td:first-child{padding-right:5px}.main-content .info .info-line.references{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.main-content .info .info-line.references a{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.main-content .info .info-line.references.multiline .reference-container{line-height:0}.main-content .info .info-line.references.multiline .reference-container a{display:inline-block!important;line-height:20px;height:20px}.main-content .info .info-line ul{overflow:hidden;list-style:none}.main-content .info .info-line ul>li{display:block;overflow:hidden;height:20px;line-height:20px;display:block}.main-content .info .info-line ul>li:after{display:inline-block;content:'';width:10px;height:10px;background-image:url(https://uploads.wikiart.org/Content/images/external_link_blue.svg)}.main-content .info .info-line ul>a{display:inline-block}.painting-header{position:relative;width:100%;vertical-align:middle}.painting-header h1{width:calc(100% - 90px);color:#b43728;text-transform:capitalize;font-size:20px;font-weight:500;line-height:30px;margin-top:-5px;text-align:left!important}.painting-list-text-row{height:28px;line-height:28px;font-size:14px}.painting-list-detailed-row{padding-bottom:10px;border-bottom:1px solid #e7ebef;padding-top:10px;line-height:100%}.painting-list-detailed-row .info-line .title{margin:0!important}.painting-list-detailed-row:first-child{padding-top:0}.painting-list-detailed-row .image{width:50%;display:inline-block;cursor:zoom-in;box-sizing:border-box}@media(min-width:1023px){.painting-list-detailed-row .image{width:500px;height:500px}}@media(max-width:1024px){.painting-list-detailed-row .image{width:50%;height:350px}.painting-list-detailed-row .main-content{width:50%!important;float:right}}.painting-list-detailed-row .main-content{display:inline-block;vertical-align:top;padding-left:20px;box-sizing:border-box;width:calc(100% - 500px);box-sizing:border-box;float:right}.painting-list-detailed-row .main-content .painting-header h1{width:auto}.mode-icon-container{width:44px;float:right!important}.mode-icon{width:44px;height:40px;display:block}.mode-icon::after{display:block;content:'';background-image:url(https://uploads.wikiart.org/Content/images/sprites.png);background-repeat:no-repeat;width:21px;height:21px;margin:10px auto}.mode-icon.mode-icon-text::after{background-position:-610px -23px}.mode-icon.mode-icon-masonry::after{background-position:-588px -23px}.mode-icon.mode-icon-detailed::after{background-position:-566px -23px}.mode-icon.mode-icon-text.selected::after{background-position:-610px -1px!important}.mode-icon.mode-icon-masonry.selected::after{background-position:-588px -1px!important}.mode-icon.mode-icon-detailed.selected::after{background-position:-566px -1px!important}.artwork-info-block .artist-name{font-size:16px;line-height:22px;font-weight:500;padding:5px 0;display:inline-block}.artwork-info-block .main-content{-webkit-order:3;order:3;display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-flex-grow:3;flex-grow:3}.artwork-info-block .arrow:hover{}.artwork-info-block .main-content .image .adv_container a{color:#0f61a8;font-weight:normal}.artwork-info-block .main-content .advertisement{margin:4px 0 4px 0}.artwork-info-block .main-content .advertisement a{background-image:url(https://uploads.wikiart.org/Content/images/shopping-cart.svg);background-position:left center;background-repeat:no-repeat;background-size:14px 14px;padding-left:20px}.artwork-info-block .main-content .advertisement .add-gray{color:#91a4b6;margin-left:3px}.artwork-info-block .main-content .advertisement .advExplanation{text-align:left;font-style:italic;display:block;font-size:.75em;font-weight:bold}.artwork-info-block .main-content .advertisement .advExplanation>span{color:#c3c3c3}.artwork-info-block .main-content .advertisement .advList{text-align:left}.artwork-info-block .main-content .advertisement .advList>.advListItem a{color:#0057a3!important;text-decoration:underline}.artwork-info-block .social-container{margin-top:10px;clear:both}.artwork-info-block ul.social-container-flat{text-align:left}.artwork-info-block ul.social-container-flat>li{display:inline-block;margin-right:5px}.artwork-info-block ul.social-container-flat>li i:before{margin-left:-1px}.artwork-info-block ul.social-container-flat>li a{display:block;color:#fff;cursor:pointer;width:28px;height:28px;text-align:center;line-height:28px;cursor:pointer;background:#bbb;color:#fff;-ms-border-radius:25px;border-radius:25px}.artwork-info-block ul.social-container-flat>li.facebook a:hover{background:#3b5998!important}.artwork-info-block ul.social-container-flat>li.twitter a:hover{background:#55acee!important}.artwork-info-block ul.social-container-flat>li.pinterest a:hover{background:#cb2027!important}.artwork-info-block ul.social-container-flat>li.gplus a:hover{background:#dc4e41!important}.artwork-info-block ul.social-container-flat>li.tumbrl a:hover{background:#395976!important}.artwork-title{box-sizing:border-box;padding:5px 60px 5px 5px;position:relative;width:100%;border-bottom:solid 1px #e7ebef}.artwork-title h1{font-size:17px;line-height:28px;color:#b43728;text-transform:capitalize;font-weight:500}.artwork-title .artist-name{display:block;box-sizing:border-box;margin-top:6px;font-size:16px;line-height:20px}.artwork-title h2 a{color:#0f61a8!important}.arrow-mobile{display:inline-block;text-align:center;vertical-align:middle;font-size:16px;font-weight:normal;height:25px;width:25px}.arrow-mobile.left{position:absolute;right:35px;top:calc(50% - 12.5px)}.arrow-mobile.right{position:absolute;right:5px;top:calc(50% - 12.5px)}.arrow-mobile a{display:block;width:25px;line-height:24px;color:#000;text-align:center;vertical-align:middle}.arrow-mobile a.disabled{color:#eee}.arrow-mobile a:hover,.arrow-mobile a:active{color:#fff;background:#b43728}.social-list .social-network{float:left;margin-right:10px}.copyright-container{box-sizing:border-box;text-align:left;vertical-align:middle;padding-top:10px;position:relative;width:100%}.copyright a{display:inline-block;vertical-align:middle;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.copyright.long{width:100%}.copyright.long a{width:calc(100% - 20px)}.artwork-info-block.artist-page .comment{font-weight:normal;color:#91a4b6;padding:5px}.artwork-info-block.artist-page .comment p{padding:0}.artist-placehoder-img{width:240px;height:300px}.artists-list s.total-link a{display:inline-block;height:20px;box-sizing:border-box;position:relative}.artists-list s.total-link .total-icon{display:inline-block;width:20px;height:100%;float:left}.artists-list s.total-link .total-icon i{display:block;width:20px;height:20px;background-image:url(https://uploads.wikiart.org/Content/images/sprites.png);background-repeat:no-repeat;background-position:-141px -35px}.artists-list s.total-link .total-text{color:#91a4b6;font-weight:bold;padding-left:5px;line-height:20px;display:inline-block;height:100%;float:right}hgroup.fix-arrows{width:100%}hgroup.fix-arrows h1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.arrow-container{float:right;font-size:0;height:18px;margin-top:-4px}.arrow a{font-family:Verdana,sans-serif;margin:0;padding:5px;font-size:18px;display:inline-block;line-height:18px;text-align:center;color:#000}.arrow{box-sizing:border-box;width:28px;height:18px;margin:0;padding:0;margin:0;display:inline-block}.arrow.left{}.arrow:hover a{color:#fff!important;background-color:#b43728}.header-arrow{float:right;font-size:20px}.arrow.right{}.view-dictionaries-container .dictionaries-list{-webkit-column-count:3;-moz-column-count:3;column-count:3}.view-dictionaries-container .dictionaries-list>li{display:block;line-height:26px;text-indent:-3em;padding-left:3em}.view-dictionaries-container .dictionaries-list>li.header{margin-top:25px;margin-bottom:10px;font:125% Verdana,sans-serif;font-weight:bold}.view-dictionaries-container .dictionaries-list>li.more a{font-weight:bold}.view-dictionaries-container .dictionaries-list .header:first-child{margin:0}.view-dictionaries-container ul.dictionaries-list>li.dottedItem:before{content:"•";padding-right:8px;color:#b43728;display:inline}.artists-group-list.limit-height{max-height:130px;overflow:hidden}.artists-group-list-header{height:26px;line-height:26px;margin-bottom:10px;font-size:14px}.artists-group-list-header b{color:#b43728;font-weight:normal}.artists-group-list{height:auto;box-sizing:border-box;-webkit-column-width:200px;-webkit-column-count:6;margin-bottom:10px}.artists-list-show-all-container{margin-top:20px;height:26px;margin:0 auto;text-align:center}.artists-list-show-all{font-weight:bolder;font-size:14px;line-height:26px}.artists-list-show-all>span{border-bottom:1px dashed}.artists-group-list>li{display:block;line-height:26px}.artists-group-list>li a{display:inline-block;line-height:26px}.artists-list-container{margin-bottom:20px;padding-left:10px;padding-bottom:20px}.copyright-claim{font-weight:700;text-align:center;border:1px dashed #0f61a8;background:rgba(247,247,19,.3);margin-top:10px;padding:10px 5px}.column-medium{-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px;orphans:3}@media screen and (max-width:1240px){.column-medium{-webkit-column-count:2;-moz-column-count:2;column-count:2}}@media screen and (min-width:1240px){.column-medium{-webkit-column-count:3;-moz-column-count:3;column-count:3}}@media screen and (min-width:1840px){.column-medium{-webkit-column-count:4;-moz-column-count:4;column-count:4}}@media screen and (min-width:2290px){.column-medium{-webkit-column-count:5;-moz-column-count:5;column-count:5}}@media screen and (min-width:2740px){.column-medium{-webkit-column-count:6;-moz-column-count:6;column-count:6}}html,body{height:100%}body{font:75% Verdana,sans-serif;color:#1a2127;line-height:125%;white-space:normal;word-wrap:break-word;background-color:#fff}.top-navi{box-sizing:border-box;border-top:solid 3px #1a2127;background-color:#fff}.top-navi.fixed{position:fixed;top:0;left:0;right:0;z-index:998}.top-navi.fixed{-webkit-box-shadow:0 5px 5px rgba(0,0,0,.1);-moz-box-shadow:0 5px 5px rgba(0,0,0,.1);box-shadow:0 5px 5px rgba(0,0,0,.1)}.top-navi.static{position:relative}body .wrapper>section{margin:0 auto}body .wrapper>section>article{line-height:150%;padding-top:15px;padding-bottom:20px}.static-page{max-width:920px;padding:0 10px;margin:0 auto}.static-page header{font-size:18px;display:block;margin-bottom:15px;color:#b43728;font-weight:600}.static-page a{color:#b43728;text-decoration:underline}.switch{display:none;position:absolute;z-index:999}.switch{min-width:100px;text-align:left;color:#fff;background-color:#1a2127;padding:10px 25px}.switch{-webkit-box-shadow:0 5px 5px rgba(0,0,0,.2);-moz-box-shadow:0 5px 5px rgba(0,0,0,.2);box-shadow:0 5px 5px rgba(0,0,0,.2)}.switch>ins{display:block}.switch>ins>a{color:#91a4b6;line-height:25px;white-space:nowrap}.switch>ins>a.disabled{color:#ccc}.switch>ins>a.disabled:hover{color:#ddd}.switch>ins>a:hover{color:#fff;text-decoration:none}.hgroup-wrapper{margin:0 auto}hgroup{background-color:#fff;margin:0 auto;position:relative;height:50px;overflow:hidden;white-space:nowrap;border-bottom:solid 1px #e7ebef}hgroup.fixed{position:fixed;top:0;z-index:998}hgroup.fixed{-webkit-box-shadow:0 5px 5px rgba(0,0,0,.1);-moz-box-shadow:0 5px 5px rgba(0,0,0,.1);box-shadow:0 5px 5px rgba(0,0,0,.1)}h2.search,hgroup h1,hgroup h2,.artist-menu h2,hgroup .breadcrumb{display:inline-block;vertical-align:top;font:32px 'Roboto Condensed';color:#b43728;line-height:47px;text-transform:uppercase;padding:0 10px;cursor:default!important}hgroup h1.search{text-transform:none}h2.search{font:14px Verdana,sans-serif;text-transform:none;line-height:30px;font-weight:normal}p.search-suggestions{padding:0 10px}hgroup h1:first-child,hgroup h2:first-child{margin-left:0}hgroup h1 b,hgroup h2 b{font-weight:normal}hgroup a{color:#1b2127!important}hgroup h1.active{margin-bottom:4px;border-bottom:4px solid #b43728}hgroup h1.active a{color:#b43728!important}hgroup h1.active:hover{color:#b43728!important}hgroup h2:hover,hgroup h2:hover a{color:#b43728!important}hgroup .disabled{color:#e7ebef}hgroup .disabled:hover,hgroup .disabled a:hover{background-color:#fff!important;color:#e7ebef!important;cursor:default}hgroup h2.disabled:hover{}hgroup.less{height:40px}hgroup.less h1{font-size:20px;line-height:20px}hgroup.less h2{font-size:20px;line-height:40px}hgroup h1 .title-part.title-part-artist a{color:#b43728!important}hgroup h1 .title-part.title-part-dictionary{color:#1a2127;padding-left:8px}hgroup h1 .title-part.title-part-group,hgroup h2 .title-part.title-part-group{color:rgba(187,187,187,1)!important;padding-left:8px}.artist-search-navigation{text-align:center;padding-top:20px}a.go-to-artist{display:block;margin-bottom:10px;font-size:14px;font-family:Verdana,sans-serif}a.all-works{display:block;margin-bottom:10px;font-size:14px;font-family:Verdana,sans-serif}footer{position:relative;box-sizing:border-box;background:#fff;position:absolute;bottom:0;left:0;width:100%;display:block;height:166px;line-height:55px;border-top:solid 1px #e7ebef}footer ul.navigation{display:block;margin:0 10px 0 0;padding:0;text-align:center}footer ul.navigation li{margin:0 10px;padding:0;display:inline-block}footer ul.navigation li:first-child{margin-left:20px}footer .app-icon-container{display:block;margin:0 auto;width:290px;height:55px;display:block;text-align:center}footer .app-icon{display:inline-block;opacity:.6}footer .app-icon:hover{opacity:1}footer .title{margin-right:82px;display:block;text-align:center}footer .title .social{color:#0057a3}footer .fb-iframe{position:relative;line-height:14px}@media(max-width:374px){footer .title{margin-right:0;line-height:25px}}@media(min-width:375px){footer .fb-iframe>div:first-child{position:absolute;left:2px;top:13px}}footer .fb-iframe>div:first-child{margin-top:-15px}.thumbnails_container{margin-top:10px}.thumbnails_data{display:flex;flex-direction:row;flex-wrap:wrap}.thumbnails_container a{color:#0f61a8}.thumbnails_data span.title{color:#91a4b6;display:inline-block}.thumbnails_data .thumbnail_item{width:25%;max-width:25%;flex-grow:1}.thumbnail_item{line-height:20px;margin-bottom:5px}.thumbnail_item a{display:block}body .wrapper>section .share{position:absolute;top:10px;right:0;height:40px;overflow:hidden;background-color:#fff;padding-left:10px;padding-right:20px}body .wrapper>section .share{-webkit-box-shadow:-20px 0 20px #fff;-moz-box-shadow:-20px 0 20px #fff;box-shadow:-20px 0 20px #fff}.loading{visibility:hidden}.sub-navi{background-color:#fff;border-top:solid 1px #e7ebef;border-bottom:solid 1px #e7ebef;width:100%}.sub-navi.fixed{position:fixed;top:40px;z-index:999}.sub-navi.fixed{-webkit-box-shadow:0 5px 5px rgba(0,0,0,.1);-moz-box-shadow:0 5px 5px rgba(0,0,0,.1);box-shadow:0 5px 5px rgba(0,0,0,.1)}.sub-navi>li{float:left;height:40px;overflow:visible;border-left:solid 1px #e7ebef}.sub-navi>li:first-child{border-left:0}.sub-navi>li:first-child>a{padding-left:10px}.sub-navi>li:last-child>a{padding-right:10px}.sub-navi>li>a{display:block;height:40px;font:16px 'Roboto Condensed';color:#1a2127;line-height:40px;text-transform:uppercase;padding:0 20px}.sub-navi>li.active{position:relative;top:-1px;height:39px;border-top:solid 1px #0057a3}.sub-navi>li.active>a,.sub-navi>li>a:hover{color:#1a2127;background-color:#eaeef2}.sub-navi>li.active>a:before{position:absolute;bottom:-1px;left:50%;content:'';display:block;width:0;height:0;margin-left:-3px}.sub-navi>li.active>a:before{border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #1a2127}.sub-navi>li.active>.switch{display:block;left:0;top:40px}.sub-navi.fixed>li{height:38px}.sub-navi.fixed>li>a{height:38px;line-height:38px}.sub-navi.fixed>li.active>.switch{top:39px}a{color:#0f61a8;text-decoration:none}a:hover{color:#0057a3}.wrapper{position:relative;min-height:100%;box-sizing:border-box;overflow:hidden}section.content{padding-bottom:166px;height:100%}.adv-wrapper{border-top:solid 1px #e7ebef;width:100%;margin-top:20px;position:relative;text-align:center}.adv-wrapper-bottom{width:100%;margin-top:20px;margin-bottom:20px;position:relative;text-align:center;border-bottom:solid 1px #e7ebef;border-top:none;padding-bottom:5px}.adv-wrapper .banner{margin-top:20px;margin-left:auto;margin-right:auto;position:relative}.adv-wrapper .text{right:0;bottom:-13px;margin-top:-10px;margin:0 auto;font-size:10px;text-align:right;color:#a5a5a5;font-style:italic;line-height:10px}.standalone-loader-cube{margin-left:auto!important;margin-right:auto!important}.iconCopy,.iconNoCopy,.iconFairUse{display:inline-block;color:#333;margin:0;padding:0 0 0 16px;margin-left:5px;line-height:normal;max-width:100%}.iconCopy{margin-right:12px}.iconFairUse{background:url(https://uploads.wikiart.org/Content/images/fair-use-wiki.svg) left center no-repeat;background-size:12px 12px;padding-left:15px}.iconFairUse a{display:inline-block}.iconCopy{background:url(https://uploads.wikiart.org/Content/images/copyright.svg) left center no-repeat;background-size:11px 11px;padding-left:15px}.iconNoCopy{background:url(https://uploads.wikiart.org/Content/images/public-domain-2.svg) left center no-repeat;background-size:11px 11px;padding-left:15px}.pointer{cursor:pointer}.popup_overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.7);text-align:center;z-index:99999}.popup_overlay:after{display:inline-block;height:100%;width:0;vertical-align:middle;content:''}@media screen and (max-width:500px){.popup{width:320px}}@media screen and (min-width:500px){.popup{width:500px}}.wikiart_responsive_1{width:300px;height:250px}@media(min-width:500px){.wikiart_responsive_1{width:468px;height:60px}}@media(min-width:800px){.wikiart_responsive_1{width:728px;height:90px}}@media(min-width:1500px){.wikiart_responsive_1{width:970px;height:90px}}.popup{display:inline-block;position:relative;vertical-align:middle;background:#fff}.popup_header{padding:10px 30px 10px 10px;width:100%;text-align:left}.popup_header .text{font-weight:bold;text-align:left}.popup_header>.popup_close a{margin-right:20px;float:right;font:10px Arial,sans-serif;line-height:13px;color:#151515!important}.popup_header>.popup_close a:hover{text-decoration:underline}.popup_copyPublicDomain{text-align:left;background-color:#eef3f6;padding:10px 10px 0 10px;font:12px Arial,sans-serif;line-height:15px}.popup_copyFairUse{text-align:left;background-color:#eef3f6;padding:10px 10px 0 10px;font:12px Arial,sans-serif;line-height:15px}.popup_copyFairUse>ol{margin-bottom:5px!important}.artist-title{border-bottom:none!important;height:40px}.today-in-history-container{padding:0 10px}.uil-cube-css{background:none;display:inline-block;margin:-10px 0 10px 0;-webkit-transform:scale(.13);-ms-transform:scale(.13);transform:scale(.13)}@-webkit-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-webkit-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-moz-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-ms-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-moz-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-webkit-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}@-o-keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4);}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1);}}@keyframes uil-cube-css{0%{-ms-transform:scale(1.4);-moz-transform:scale(1.4);-webkit-transform:scale(1.4);-o-transform:scale(1.4);transform:scale(1.4)}100%{-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}.uil-cube-css>div{position:absolute;width:100px;height:100px;-ms-animation:uil-cube-css 1s cubic-bezier(.2,.8,.2,.8) infinite;-moz-animation:uil-cube-css 1s cubic-bezier(.2,.8,.2,.8) infinite;-webkit-animation:uil-cube-css 1s cubic-bezier(.2,.8,.2,.8) infinite;-o-animation:uil-cube-css 1s cubic-bezier(.2,.8,.2,.8) infinite;animation:uil-cube-css 1s cubic-bezier(.2,.8,.2,.8) infinite}.uil-cube-css>div:nth-of-type(1){top:10px;left:10px;background:#b3362b;opacity:.9;-ms-animation-delay:0s;-moz-animation-delay:0s;-webkit-animation-delay:0s;-o-animation-delay:0s;animation-delay:0s}.uil-cube-css>div:nth-of-type(2){top:10px;left:130px;background:#b3362b;opacity:.8;-ms-animation-delay:.1s;-moz-animation-delay:.1s;-webkit-animation-delay:.1s;-o-animation-delay:.1s;animation-delay:.1s}.uil-cube-css>div:nth-of-type(3){top:130px;left:10px;background:#b3362b;opacity:.7;-ms-animation-delay:.3s;-moz-animation-delay:.3s;-webkit-animation-delay:.3s;-o-animation-delay:.3s;animation-delay:.3s}.uil-cube-css>div:nth-of-type(4){top:130px;left:130px;background:#b3362b;opacity:.6;-ms-animation-delay:.2s;-moz-animation-delay:.2s;-webkit-animation-delay:.2s;-o-animation-delay:.2s;animation-delay:.2s}.standalone-loader-cube-wrapper{padding:30px 0;width:38px;height:38px;margin:0 auto}.btn-more-loader-cube-wrapper{width:38px;height:38px;margin:0 auto}.login-form-container{text-align:center;max-width:500px;margin:0 auto;font-family:Verdana,sans-serif;font-size:16px}.login-form-container .validation-summary-errors{padding:10px 5px!important;margin:10px 50px!important;background:#ffbfbf!important}.login-form-container header{font-size:18px;text-transform:uppercase;font-weight:bold;padding:55px 0;font-family:Arial,sans-serif}.login-form-container form{display:block;text-align:left;font-size:14px;width:100%}.login-form-container form .form-group,.login-form-container form .checkbox{display:block;margin-bottom:10px}.login-form-container form .form-group-half{}@media(min-width:720px){.login-form-container form .form-group,.login-form-container form .checkbox{padding:0 50px}.login-form-container form .form-group-half{padding:10px 50px;display:inline-block;width:calc(100% - 100px)}.login-form-container form .form-group-half.left{padding-left:50px;padding-right:5px}.login-form-container form .form-group-half.right{padding-right:50px;padding-left:5px}}@media(max-width:720px)and (min-width:375px){.login-form-container form .form-group,.login-form-container form .checkbox{padding:0 40px}.login-form-container form .form-group-half{padding:10px 40px;display:block!important;width:calc(100% - 80px)!important}}@media(max-width:375px){.login-form-container form .form-group,.login-form-container form .checkbox{padding:0 25px}.login-form-container form .form-group-half{padding:10px 25px;display:block!important;width:calc(100% - 50px)!important}}.login-form-container form .form-group-half{width:calc(50% - 55px);display:inline-block;float:left}@media(max-width:720px){}.login-form-container form .form-group-half button.social{width:100%;border-radius:4px;padding:5px 7px;color:#fff;border:0;position:relative;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.login-form-container form .form-group-half button.social b{font-weight:normal;padding-left:15px;font-size:15px}.login-form-container form .form-group-half button.social i{height:25px;width:25px;position:absolute;top:0;left:2px}.login-form-container form .form-group-half button.social.facebook{background:linear-gradient(#456098,#3c578f)}.login-form-container form .form-group-half button.social.google{background:linear-gradient(#e0523b,#dd4931)}.login-form-container .form-separator{clear:both;padding-top:25px;padding-bottom:10px}.login-form-container .form-separator span{display:inline-block;width:100%;text-align:center;border-bottom:1px solid #adadaf;line-height:.1em;margin:10px 0 20px}.login-form-container .form-separator span b{background:#fff;font-weight:normal;font-size:14px;padding:0 10px;color:#adadaf}.login-form-container .form-footer{text-align:center;margin:20px 0;font-size:14px}.login-form-container form .form-group label{display:block}.login-form-container form input[type="text"],.login-form-container form input[type="email"],.login-form-container form input[type="password"]{width:100%;box-sizing:border-box;border-radius:3px;border:1px solid #adadaf;padding-left:10px;font-size:14px;height:25px}.login-form-container form .form-group.buttons{margin-top:10px}.login-form-container form .form-group.buttons a{line-height:10px}@media(max-width:360px){.login-form-container form .form-group.buttons a{display:block;margin:0 auto;width:auto;text-align:center;margin-bottom:20px}.login-form-container form .form-group.buttons button{margin:0 auto;float:none;display:block}}.form-group.buttons.register .btn-sing-in{float:none!important;margin:0 auto;display:block}.login-form-container form .form-group.login-confirmation{padding-top:55px;text-align:center}.login-form-container form .form-group.login-confirmation label{margin-bottom:10px}.login-form-container form .form-group.login-confirmation input[type="text"]{text-align:center;height:30px;font-size:16px}.login-form-container form .form-group.login-confirmation .text-big{font-size:28px;font-weight:600;margin-bottom:15px}.login-form-container form .form-group.login-confirmation .text-small{font-size:18px;margin-bottom:50px}.login-form-container form .form-group.login-confirmation .asterisc{color:#b43728;font-size:16px}.login-form-container form .form-group.login-confirmation .hint{font-size:12px}.login-form-container form .form-group.getting-started{text-align:center;margin-top:50px}.login-form-container form .btn-sing-in{float:right;background:#b43728;color:#fff;text-transform:uppercase;padding:5px 7px;border:0;font-size:16px;line-height:16px}.login-form-container form .btn-getting-started{background:#b43728;color:#fff;padding:10px 15px;border:0;font-size:18px}.login-form-container .icon-login-fb{height:25px;background:url(https://uploads.wikiart.org/Content/images/login_btn_fb.png)}.login-form-container .icon-login-google{height:25px;background:url(https://uploads.wikiart.org/Content/images/login_btn_google.png)}.login-form-container .form-group.terms-of-use{padding:10px 0;text-align:center}@media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.login-form-container .icon-login-google{height:25px;background-size:25px 25px;background-position:0 1px;background-repeat:no-repeat;background-image:url(https://uploads.wikiart.org/Content/images/login_btn_google_retina.png)}.login-form-container form .form-group-half button.social.facebook{background-image:none;background-color:#475993!important}.login-form-container .icon-login-fb{height:25px;background-size:25px 25px;background-position:0 1px;background-repeat:no-repeat;background-image:url(https://uploads.wikiart.org/Content/images/login_btn_fb_retina.png)}.login-form-container form .form-group-half button.social.google{background-image:none;background-color:#dd4b39!important}.login-form-container header{padding:20px 0}}.profile-container{font-family:Verdana,sans-serif}.profile-container .profile-logo{display:inline-block;float:left;width:211px;height:211px;background:url(https://uploads.wikiart.org/Content/images/profile_big.png)}.profile-container .profile-stats{box-sizing:border-box;width:288px;float:right;padding-left:40px;text-align:left}.profile-container .profile-stats .profile-stats-line{height:46px;line-height:46px;font-weight:bold}.profile-container .profile-stats .profile-stats-line a{color:#000}.profile-container .profile-stats .profile-stats-line .profile-stats-line-mark{color:#b43728;padding:0 5px}.profile-container .profile-stats .profile-stats-line .profile-stats-line-mark-dark{padding:0 5px}.profile-container .profile-summary{clear:both;margin:15px 0}.profile-container .profile-summary .profile-summary-line{font-size:14px;text-align:left;height:28px;line-height:28px;color:#9a9a9a}.profile-container .profile-summary .profile-summary-line.profile-summary-line-bold{color:#000;height:28px;line-height:28px;font-weight:bold;font-size:18px}.profile-container .profile-summary .profile-summary-line.profile-summary-line-bold.profile-summary-line-bold-small{font-size:14px}.profile-container .profile-summary .profile-summary-field{text-align:center}.profile-container .profile-summary .profile-summary-field label{padding:2px 0;font-size:16px}.profile-container .profile-summary .profile-summary-field input[type='text'],.profile-container .profile-summary .profile-summary-field input[type='password']{height:40px;text-align:center;font-size:16px;color:#444}.profile-container .profile-summary .profile-summary-buttons{text-align:center;margin:25px 0}.profile-container .profile-summary .profile-summary-buttons button.profile-save-btn{display:inline-block;background:#b43728;color:#fff;text-transform:uppercase;height:40px;width:150px;border:0;font-size:16px;line-height:16px}.profile-container .profile-summary .profile-summary-buttons a.profile-cancel-btn{display:inline-block;background:#d3d3d3;color:#000;text-transform:uppercase;height:40px;width:150px;border:0;font-size:16px;line-height:40px}.profile-container .profile-summary .profile-summary-buttons a.profile-chnage-password-link{display:block;text-transform:uppercase;font-size:20px;margin-top:30px;line-height:26px;height:26px;color:#9a9a9a}li.language-footer{position:relative}.languages-switch-footer{display:none}.languages-switch.opened+.languages-switch-footer{display:block}.languages-switch i{border-right:4px solid transparent;border-left:4px solid transparent;border-top:4px solid #0057a3;position:relative;display:inline-block;zoom:1;width:0;height:0;top:-1px;left:3px}.languages-switch-footer{position:absolute;z-index:9999;border:1px solid #e7ebef;box-shadow:#000 0 1px 5px 0;box-shadow:rgba(0,0,0,.2) 0 1px 5px 0;background:#fff;width:90px}.languages-switch-footer ins{box-sizing:border-box;display:inline-block;width:100%;line-height:20px;margin-bottom:2px;line-height:35px;float:left;margin:-2px}.languages-switch-footer ins a{display:block}.languages-switch-footer ins:hover{background:#f1f1f1}.login-form-container.access-denied{max-width:1024px}.login-form-container.access-denied .text-small span{line-height:22px;font-size:22px;font-weight:500;padding-bottom:12px;display:inline-block}.login-form-container.access-denied .text-small .hint{font-size:14px!important}table.logs.data-logs{border:none;border-spacing:0!important}table.logs.data-logs tr{border:none}table.logs.data-logs td.log-text{font-family:"Lucida Console",Monaco,monospace}.static-page.about ul{margin:0}.static-page.about ul.dashed{list-style-type:none}.static-page.about ul.dashed>li:before{content:"- "}.static-page.about .bold{font-weight:bold}.paintingMatching{position:relative;clear:both}.paintingMatching>div{display:inline-block;margin:10px}.paintingMatching .wikidataImage-container{display:block;float:left;width:25%;box-sizing:border-box;background:#efefef;box-shadow:1px 1px 10px #999;text-align:center;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;max-width:230px}.paintingMatching .wikidataImage-container .image{max-height:300px;width:100%}.paintingMatching .suggestedImage-container{border:1px solid #e7ebef;overflow-x:scroll;white-space:nowrap;overflow-y:hidden;min-height:200px}.paintingMatching .suggestedImage-container .image{max-height:300px}.paintingMatching .wrapper{background:#efefef;box-shadow:1px 1px 10px #999;display:block;float:left;width:74%;margin-left:10px;box-sizing:border-box;text-align:center;position:relative;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.paintingMatching .suggestedImage-container .suggestedImage{display:inline-block;margin:0 10px}.paintingMatching .image{display:block}.paintingMatching .suggestedImage-container .suggestedImage .image-container{position:relative;display:inline-block;overflow:hidden;cursor:pointer}.paintingMatching .suggestedImage-container .suggestedImage .image-container img{width:100%}.paintingMatching .suggestedImage-container .suggestedImage .image-container:hover span,.paintingMatching .suggestedImage-container .suggestedImage .image-container .approved{opacity:1;position:absolute;top:0;left:0;width:32px;height:32px;background-image:url(https://uploads.wikiart.org/Content/images/ok-icon.png);background-repeat:no-repeat}.paintingMatching .suggestedImage-container .suggestedImage .image-container .icon span{display:block;position:absolute;top:-100%;opacity:0;left:0;bottom:0;right:0;text-align:center;color:inherit}.top-message{text-align:center;color:#fff;font-family:Verdana,sans-serif;font-weight:600;font-size:16px;vertical-align:middle;background:#057ac6;height:34px;line-height:34px;position:relative;box-shadow:0 0 3px #057ac6}@keyframes fade-in{from{opacity:0}to{opacity:1}}@keyframes fade-out{0%{opacity:1}66%{opacity:1;height:initial}100%{opacity:0;height:0}}.top-message .top-message-close{position:absolute;width:34px;height:20px;right:5px;top:0;color:#fff;padding:7px 0}.top-message .top-message-close:before,.top-message .top-message-close:after{position:absolute;left:15px;content:' ';height:20px;width:2px;background-color:#fff}.top-message .top-message-close:hover:after,.top-message .top-message-close:hover:before{background:#eee}.top-message .top-message-close:before{transform:rotate(45deg)}.top-message .top-message-close:after{transform:rotate(-45deg)}.static-page.user-help{font:100% Verdana,sans-serif;max-width:1115px}.static-page.user-help section{margin-bottom:30px;position:relative}.static-page.user-help section .anchor{position:absolute;left:0;top:-60px}.static-page.user-help section strong{font-weight:normal}.static-page.user-help section.menu header{display:block;font-size:18px;margin-bottom:15px;color:#b43728;font-weight:600}.static-page.user-help section.menu nav>a{line-height:34px;font-size:15px;font-weight:500;color:#0f61a8;text-decoration:none;font-weight:600}.static-page.user-help section figure{display:block;width:100%;height:40vw;max-height:494px}.static-page.user-help section figure .screenshot{background-size:100% 100%;height:100%;box-sizing:border-box;max-width:1155px;margin:0 auto}.static-page.user-help section .screenshot.screenshot-search-artist{background-image:url('/Content/images/screenshots/search-artist.png')}.static-page.user-help section .screenshot.screenshot-edit-artist{background-image:url('/Content/images/screenshots/edit-artist.png')}.static-page.user-help section .screenshot.screenshot-add-artist{background-image:url('/Content/images/screenshots/add-artist.png')}.static-page.user-help section .screenshot.screenshot-localize-artist{background-image:url('/Content/images/screenshots/localize-artist.png')}.static-page.user-help section .screenshot.screenshot-localize-artist-2{background-image:url('/Content/images/screenshots/localize-artist-2.png')}.static-page.user-help section .screenshot.screenshot-add-artwork{background-image:url('/Content/images/screenshots/add-artwork.png')}.static-page.user-help section .screenshot.screenshot-add-artworks{background-image:url('/Content/images/screenshots/add-artworks.png')}.static-page.user-help section .screenshot.screenshot-edit-artwork{background-image:url('/Content/images/screenshots/edit-artwork.png')}.static-page.user-help section .screenshot.screenshot-localize-artwork{background-image:url('/Content/images/screenshots/localize-artwork.png')}.static-page.user-help section .screenshot.screenshot-localize-artwork-2{background-image:url('/Content/images/screenshots/localize-artwork-2.png')}.static-page.user-help section header{display:inline-block;font-size:18px;font-weight:600;margin-bottom:10px}.static-page.user-help section ol{}.static-page.user-help section ol>li{font-size:14px;margin-bottom:10px}.static-page.user-help section ol>li.text:before{content:'- '}.top-navi .navigation .dark.action-menu a{display:inline-block!important;color:#fff;font-style:italic;padding:0 15px}.top-navi .navigation .dark.action-menu a.right{float:right}.top-navi .navigation .dark.action-menu a.left{float:left}.top-navi .navigation .dark.action-menu .spinner-container{float:left;margin:0}.top-navi .navigation .dark.action-menu .spinner-container .spinner{margin:5px 0;font-size:2px;border-top:1.1em solid rgba(255,255,255,.2);border-right:1.1em solid rgba(255,255,255,.2);border-bottom:1.1em solid rgba(255,255,255,.2);border-left:1.1em solid #fff}.top-navi .navigation .dark.action-menu a.action-menu-navigation.disabled{pointer-events:none;cursor:default;color:#444;text-decoration:none}.top-navi .navigation .dark.action-menu{background:#777!important;padding:0}.action-menu-opened{margin-top:30px!important}.actionHistory .ok-icon{display:inline-block;width:14px;height:14px;cursor:pointer;background-image:url(https://uploads.wikiart.org/Content/images/ok-icon.png);background-repeat:no-repeat;background-size:cover}.actionHistory .cancel-icon{display:inline-block;width:14px;height:14px;cursor:pointer;background-image:url(https://uploads.wikiart.org/Content/images/cancel-icon.png);background-repeat:no-repeat;background-size:cover}@keyframes fadeIn{to{opacity:1}}.fade-in{opacity:0;animation:fadeIn 1s ease-in 1 forwards}.is-paused{animation-play-state:paused}.dictionary-illustration-container{overflow:hidden;padding-top:15px;padding-left:10px;padding-right:10px;margin-bottom:15px}.dictionary-illustration-container .image-wrapper{float:left;max-width:280px;margin-right:40px}@media(max-width:600px){.dictionary-illustration-container .image-wrapper{float:none;margin:0 auto 15px auto}}.dictionary-illustration-container .image-wrapper .comment{margin-top:5px;margin-bottom:5px}.dictionary-illustration-container .image-wrapper .comment a{color:#91a4b6;font-family:Verdana,sans-serif;font-size:12px}.dictionary-illustration-container p{font-family:Verdana,sans-serif;font-size:14px;line-height:20px;white-space:pre-line}.dictionary-illustration-container .references{}.title-dictionary .title-part-dictionary{color:#b43728!important}.alphabet-list{-webkit-column-count:3;-moz-column-count:3;column-count:3}.alphabet-list>li{display:block;line-height:26px}.alphabet-list>li.header{margin-top:25px;margin-bottom:10px;font:125% Verdana,sans-serif;font-weight:bold}.alphabet-list>li.more a{font-weight:bold}.alphabet-list .header:first-child{margin:0}[ng-cloak],.ng-cloak{display:none!important}.clear:after{content:'.';display:block;height:0;clear:both;visibility:hidden}p{padding-bottom:15px}p{-moz-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}h1,h2,h3,h4,h5,h6{color:#4d4d4d;font-weight:normal}ul,ol{list-style:none;list-style-type:none;margin:0;padding:0}ul.circle{list-style-type:circle!important;margin:0 0 15px 15px;padding:0 0 0 5px}ul.disc{list-style-type:disc!important;margin:0 0 15px 15px;padding:0 0 0 5px}ol.decimal{list-style-type:decimal!important;margin:0 0 15px 15px;padding:0 0 0 8px}.artists-list{display:flex;flex-direction:row;flex-wrap:wrap;align-content:stretch}.artists-list>li{overflow:hidden;vertical-align:top;border:solid 1px #e7ebef;border-top:0;border-right:0;margin-bottom:20px;width:calc(33% - 10px);box-sizing:border-box;margin-right:10px}@media(min-width:1240px){.artists-list>li{width:calc(33% - 10px)}}@media(max-width:1240px){.artists-list>li{width:calc(50% - 10px)}}.artists-list>li>a{display:block;float:left;width:140px;height:175px;background-position:50% 50%;background-size:140px 175px;background-repeat:no-repeat;margin-right:20px}.artists-list>li>ul{height:144px}.artists-list>li>ul>li{}.artists-list .title{max-height:114px;font-size:16px;line-height:19px;margin-bottom:5px}.artists-list .title,.artists-list .title a{color:#192026}.artists-list .text{height:15px;font-size:12px;color:#91a4b6;line-height:15px}.artist-menu{border-top:solid 1px #e7ebef;margin-bottom:20px}.artist-menu h2{font:20px 'Roboto Condensed';line-height:40px}.artist-menu .artist-name{color:#c5c5c5}.wiki-tiles .image img,.artwork-page .image img{cursor:zoom-in}.artist-page>.image{float:left;margin-right:20px}.artist-page>.image>a{display:block;float:left;margin-bottom:10px}.artist-page>.image>.buttons{position:relative;display:block;padding-bottom:5px}.artist-page>.info>a:before{content:'';display:block;float:left;width:12px;height:12px;overflow:hidden;text-indent:-9999px;background:url(https://uploads.wikiart.org/Content/images/sprites.png) -284px -33px no-repeat;margin-top:3px;margin-right:5px}.artist-page>.info{overflow:hidden;padding-bottom:5px}.artist-page>.info .column{float:left}.artist-page>.info dl{overflow:hidden;padding-bottom:10px}.artist-page>.info dl dt{display:block;float:left;width:100px;font-weight:normal;color:#91a4b6}.artist-page>.info dl dd{margin-left:100px}.artist-page>.text{clear:both;border-top:solid 1px #e7ebef;padding:10px 5px}.artist-page>.text>a{color:blue}.artist-page>.text>.wiki{color:#add8e6}.wiki-tiles{position:relative;margin:0 auto;left:10px}.wiki-tiles .pinterest-image{display:block}.wiki-tiles .title{margin:10px 20px 10px 0}.wiki-tiles .title li{height:15px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;color:#91a4b6;line-height:15px}.wiki-tiles .title li:first-child{height:17px;font-size:14px;font-weight:bold;color:#617b92;line-height:17px;margin-bottom:5px}.wiki-tiles .title a{color:#1a2127}.progressBarContainer{font-size:16px;height:32px;line-height:32px}.progressBarView{background-color:#fff;border-width:2px;border-color:#eef3f6;padding:1px 1px 1px 1px;width:900px!important;display:block;float:left;border-style:solid}.progressBarViewDone{height:30px;line-height:30px;background-color:#eef3f6;margin:1px 1px 1px 1px}.form.fixed{width:920px;margin:0 auto}.form table td{padding:0 4px 0 4px}.form table thead td{font-weight:bold;padding-bottom:10px}.autocomplete-container{width:220px;position:absolute}.ui-autocomplete{border:solid 1px;border-color:#e1dfdd;border-top-color:#efefef;border-bottom-color:#bdbdbd;background-color:#fff;z-index:1001!important;font:13px Verdana,sans-serif;color:#3f3f3f;line-height:14px;padding:10px 0 2px;margin:0;text-align:left}.ui-autocomplete .ui-menu-item{padding:0 11px 9px!important}.ui-autocomplete .as_item{overflow:hidden}.ui-autocomplete .ui-state-hover{background-color:#e6e6e6}.ui-autocomplete a{cursor:pointer}#autocomplete-container{display:block;position:absolute;width:395px}.registerForm{display:inline-block;text-align:right}.registerForm>ul>li{margin-bottom:10px}.countryEditForm{display:inline-block;text-align:right}.countryEditForm>ul>li{margin-bottom:10px}.loginForm{display:inline-block;text-align:right}.loginForm>ul>li{margin-bottom:10px}.changePasswordForm{display:inline-block;text-align:right}.changePasswordForm>ul>li{margin-bottom:10px}.restorePasswordForm{display:inline-block;text-align:right}.restorePasswordForm>ul>li{margin-bottom:10px}.loginFormPartial label{color:#91a4b6}.loginFormPartial>ul>li{margin-bottom:10px}.viewProfile{display:inline-block}.viewProfile>ul>li{margin-bottom:10px}.viewProfile>ul>li label{margin-bottom:10px;width:120px;display:inline-block}.editProfileForm{display:inline-block;text-align:right}.editProfileForm>ul>li{margin-bottom:10px}table.logs{width:100%;border-spacing:2px;border-collapse:separate;table-layout:fixed}table.logs th,table.logs td{text-align:left;vertical-align:middle;padding:5px}table.logs td.icons,table.logs td.center{text-align:center!important}table.logs th{text-align:center;font-weight:bold}table.logs th:first-child,table.logs td:first-child{text-align:left}table.logs tbody:nth-child(odd){background-color:#f8f9f9}table.logs tbody:nth-child(odd)>tr.details-container{background-color:#f8f9f9}table.logs thead tr{background-color:#f8f9f9}table.logs td>a{cursor:pointer}@media screen and (min-width:1024px){#artworksDivMobile{padding:0}#artworksDivMobile .topMenuContainer{display:none}#artworksDiv{padding:20px}#artworksDiv .topMenuContainer{display:inline}#artistsDivMobile{padding:0}#artistsDivMobile .topMenuContainer{display:none}#artistsDiv{padding:20px}#artistsDiv .topMenuContainer{display:inline}}@media screen and (max-width:1023px){#artworksDivMobile{padding:20px}#artworksDivMobile .topMenuContainer{display:inline}#artworksDiv{padding:0}#artworksDiv .topMenuContainer{display:none}#artistsDivMobile{padding:20px}#artistsDivMobile .topMenuContainer{display:inline}#artistsDiv{padding:0}#artistsDiv .topMenuContainer{display:none}}#supersized{font:12px Verdana,sans-serif;color:#fff;line-height:15px}#supersized .gallery{z-index:9901;user-select:none;-webkit-user-select:none;-moz-user-select:none}#supersized .gallery a{z-index:9902}#supersized .gallery a.prevslide{z-index:9903}#supersized .gallery a.activeslide{z-index:9904;display:block;text-align:center}#supersized .nextthumb,#supersized .prevthumb,#supersized .header{z-index:9905;user-select:none;-webkit-user-select:none;-moz-user-select:none}#supersized .prevslidehalf{z-index:9906}#supersized .nextslidehalf{z-index:9906}#supersized .f11,#supersized .copyright{z-index:9907}#supersized .loader{z-index:9908}#supersized .prevslidehalf{width:50%;height:100%;background-color:transparent;position:fixed;display:block;top:0;left:0}#supersized .nextslidehalf{width:50%;height:100%;background-color:transparent;position:fixed;display:block;top:0;right:0}#supersized .gallery{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;text-align:center}#supersized .gallery img{position:relative;display:none;outline:none;border:none}#supersized .gallery.speed img{-ms-interpolation-mode:nearest-neighbor;image-rendering:-moz-crisp-edges}#supersized .gallery.quality img{-ms-interpolation-mode:bicubic;image-rendering:optimizeQuality}#supersized .gallery a{position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;background-color:#111}#supersized .gallery a.prevslide img,#supersized .gallery a.activeslide img{display:inline}#supersized span.center-vertical{display:inline-block;height:100%;vertical-align:middle}#supersized .loader,.supersized-standalone-loader{position:fixed;top:50%;left:50%;margin-top:-30px;margin-left:-30px}#supersized .loader,.supersized-standalone-loader{background-color:rgba(0,0,0,.8);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#supersized .loader:before,.supersized-standalone-loader:before{content:'';display:block;width:60px;height:60px;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/progress.gif) 50% 50% no-repeat}#supersized .header{overflow:hidden;position:fixed;z-index:9908;bottom:0;left:0;right:0;height:80px;border-bottom:solid 1px #1b1b1b}#supersized .transparent-header{display:block;z-index:9907;position:fixed;bottom:0;left:0;right:0;height:90px;background:#000;opacity:0;filter:Alpha(opacity=0)}#supersized .header{background:#000}#supersized .supersized-top-btn-container{overflow:hidden;position:fixed;z-index:9908;top:0;right:0;height:42px;width:42px;text-align:center;-webkit-user-select:none;-moz-user-select:none;text-align:center}#supersized .supersized-top-btn-container.fullscreen-container{top:42px!important}#supersized .supersized-top-btn-container.fullscreen-close-container{top:42px!important;display:none}#supersized .supersized-top-btn-container.fullscreen-arrow-right-container{top:50%;width:60px;height:120px;margin-top:-60px;display:none}#supersized .supersized-top-btn-container.fullscreen-arrow-left-container{left:0;right:auto;top:50%;width:60px;height:120px;margin-top:-60px;display:none}#supersized .supersized-top-btn-container a{display:block;user-select:none}#supersized .supersized-top-btn-container a:before{content:'';display:block;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929);position:absolute;left:50%;top:50%;cursor:pointer}#supersized .supersized-top-btn-container a.close:before{background-position:-542px 0;width:23px;height:23px;margin:-11.5px 0 0 -11.5px}#supersized .supersized-top-btn-container a.close:hover:before{background-position:-542px -24px;width:23px;height:23px;margin:-11.5px 0 0 -11.5px}#supersized .supersized-top-btn-container a.fullscreen:before{background-position:-484px 0;width:22px;height:22px;margin:-11px 0 0 -11px}#supersized .supersized-top-btn-container a.fullscreen:hover:before{background-position:-506px 0;width:22px;height:22px;margin:-11px 0 0 -11px}#supersized .supersized-top-btn-container a.fullscreen-close:before{background-position:-484px -23px;width:29px;height:29px;margin:-14.5px 0 0 -14.5px}#supersized .supersized-top-btn-container a.fullscreen-close:hover:before{background-position:-513px -23px;width:29px;height:29px;margin:-14.5px 0 0 -14.5px}#supersized .supersized-top-btn-container a.fullscreen-arrow-left:before{background-position:-376px 0;width:26px;height:40px;margin:-20px 0 0 -13px}#supersized .supersized-top-btn-container a.fullscreen-arrow-left:hover:before{background-position:-430px 0;width:26px;height:40px;margin:-20px 0 0 -13px}#supersized .supersized-top-btn-container a.fullscreen-arrow-right:before{background-position:-403px 0;width:26px;height:40px;margin:-20px 0 0 -13px}#supersized .supersized-top-btn-container a.fullscreen-arrow-right:hover:before{background-position:-457px 0;width:26px;height:40px;margin:-20px 0 0 -13px}#supersized .supersized-top-btn-container.fullscreen-arrow-left-container{transition:left 1s}#supersized .supersized-top-btn-container.fullscreen-arrow-left-container:hover{left:-10px}#supersized .supersized-top-btn-container.fullscreen-arrow-right-container{transition:right 1s}#supersized .supersized-top-btn-container.fullscreen-arrow-right-container:hover{right:-10px}#supersized .header .show-details{position:absolute;top:0;height:48px;width:80px}#supersized .header .show-details:before{position:absolute;top:17px;left:36px;content:'';display:block;width:7px;height:13px;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -255px -41px no-repeat}#supersized .header .show-details:hover:before{background-position:-247px -41px}#supersized .header .best-price-adv{padding-bottom:12px}#supersized .header a.cart{display:block;position:absolute;width:80px;height:32px;background:#000;left:0;top:48px}#supersized .header a.cart:before{width:15px;height:15px;left:32px;top:8px;position:absolute;content:'';display:block;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/cart-black.png)}#supersized .header a.adv-link{padding-left:5px;position:absolute;left:0;bottom:0;overflow:hidden;white-space:nowrap;color:#d72f1b;font-weight:normal;text-align:center;line-height:32px}@media(min-width:720px){#supersized .header a.adv-link{padding-left:85px}}@media(max-width:719px){#supersized .header a.adv-link{display:none}#supersized .header a.cart{display:none}#supersized .header{height:50px}}#supersized .title{display:block;width:50%;text-shadow:0 2px 0 rgba(0,0,0,.8);padding-top:12px}#supersized .artist{display:block;color:#999}#supersized .artist a{color:#999}#supersized .artist a:hover{color:#999}#supersized .artist,#supersized .painting{margin-left:85px;margin-right:100px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}#supersized .caption{}#supersized .number{position:relative;font-size:13px;line-height:16px;padding-left:15px;margin-left:10px}#supersized .number:before{position:absolute;left:0;top:3px;content:'';display:block;width:10px;height:10px;overflow:hidden;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -272px -26px no-repeat}#supersized .total{font-size:13px}#supersized .painting{display:block;font-weight:bold;color:#fff;padding-top:5px}#supersized .painting a{color:#fff}#supersized .painting a:hover{color:#fff}#supersized .navigation{position:absolute;left:50%;top:0;text-align:center;margin-left:-80px;height:100%;user-select:none;-webkit-user-select:none;-moz-user-select:none}#supersized .navigation a{cursor:pointer;display:inline-block;height:48px;width:48px;position:relative}#supersized .navigation i{display:block;text-decoration:none;padding:0;margin:0}#supersized .navigation .prev i{position:absolute;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -301px top no-repeat;width:17px;height:12px;top:18px;left:16px}#supersized .navigation .prev:hover i{background-position:-301px -13px}#supersized .navigation .play i{position:absolute;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -319px top no-repeat;width:20px;height:24px;top:12px;left:16px}#supersized .navigation .play:hover i{background-position:-319px -25px}#supersized .navigation .play.pause i{position:absolute;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -340px top no-repeat;width:17px;height:24px;top:12px;left:16px}#supersized .navigation .play.pause:hover i{background-position:-340px -25px}#supersized .navigation .next i{position:absolute;background:url(https://uploads.wikiart.org/Content/images/sprites.png?20120929) -358px top no-repeat;width:17px;height:12px;top:18px;left:16px}#supersized .navigation .next:hover i{background-position:-358px -13px}#supersized .nextthumb,#supersized .prevthumb{position:fixed;top:50%;height:75px;width:100px;overflow:hidden;background:#ddd;border:2px solid #fff;margin-top:-40px}#supersized .nextthumb,#supersized .prevthumb{-webkit-box-shadow:0 0 5px rgba(0,0,0,1);-moz-box-shadow:0 0 5px rgba(0,0,0,1);box-shadow:0 0 5px rgba(0,0,0,1)}#supersized .nextthumb{right:-35px}#supersized .prevthumb{left:-35px}#supersized .nextthumb img,#supersized .prevthumb img{width:150px;height:auto}#supersized .nextthumb:hover,#supersized .prevthumb:hover{cursor:pointer}#supersized .f11{position:fixed;top:0;left:50%;background-color:rgba(0,0,0,.8);padding:15px 20px;margin-left:-210px}#supersized .f11{font-size:14px;color:#999;text-shadow:0 2px 0 rgba(0,0,0,.8)}#supersized .copyright{position:fixed;bottom:0;left:0;right:0;background-color:rgba(0,0,0,.5);padding:5px 10px}#supersized .copyright{font-size:11px;color:#999;text-shadow:0 2px 0 rgba(0,0,0,.8)}@font-face{font-family:'fontello';src:url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.eot?1779767);src:url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.eot?1779767#iefix) format('embedded-opentype'),url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.woff2?1779767) format('woff2'),url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.woff?1779767) format('woff'),url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.ttf?1779767) format('truetype'),url(https://uploads.wikiart.org/Content/css/fonts/fontello/font/fontello.svg?1779767#fontello) format('svg');font-weight:normal;font-style:normal}[class^="icon-"]:before,[class*=" icon-"]:before{font-family:"fontello";font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-twitter:before{content:''}.icon-gplus-1:before{content:''}.icon-pinterest:before{content:''}.icon-facebook-1:before{content:''}.icon-tumblr:before{content:''}.icon-cancel:before{content:''}.icon-search:before{content:''}.icon-user:before{content:''}</style>
+
+    <!--[if IE]><link rel="stylesheet" href="/Content/css/ie.css" /><![endif]-->
+</head>
+    <body id="body" 
+>
+        <div id="fb-root"></div>
+        <div id="wrapper" class="wrapper">
+                            <header class="top-navi">
+                    <ul id="navigation" class="navigation fit-width">
+                        
+                        
+<li id="firstMenuItem" class="active "><a href="/" title="WikiArt.org - Visual Art Encyclopedia">W</a></li>
+
+<li class="light" id="artistsMenuItem">
+    <a href="javascript:;" title="Artists">Artists</a>
+</li>
+<li class="light" id="artworksMenuItem">
+    <a href="javascript:;" title="Artworks">Artworks</a>
+</li>
+<script type="text/plain">
+    getDataFromLocalStorage('topmenu', 1668908643, 'https://uploads.wikiart.org/_v2/cdn/www/1668908643.gzip', bindMenu);
+</script>
+
+<li class="search" id="searchMenuItem">
+    <ins>
+        <a href="javascript:;" class="link"><i class="fontello-icon icon-search"></i></a>
+        <input type="text" id="searchTerm" name="searchterm" placeholder="Search..." onkeydown="search_KeyPressed(event, 'en' ) " />
+        <a href="javascript:;" style="display: none;" class="close"><i class="fontello-icon icon-cancel"></i></a>
+    </ins>
+    <div id="autocomplete-container"></div>
+</li>
+
+
+
+
+
+
+
+                        
+
+                        
+
+                            <li id="loginMenuItem" class="desktop-only-block">
+                                <a href="/en/App/WikiAccount/LogIn">Log In</a>
+                            </li>
+                    </ul>
+                </header>
+            <div class="navigation-fixed"></div>
+
+            <section class="content fit-width " id="headSection">
+
+                <div class="top-message" style="display: none;">
+                    <span class="msg"></span>
+                    <a href="javascript:;" onclick=" this.parentElement.style.display = 'none'; " class="top-message-close"></a>
+                </div>
+                
+
+    <div class="artwork-title">
+        <h1><span itemprop="name">Tres cipreses</span></h1>
+        <a class="artist-name" href="/en/claudio-castillo">Claudio Castillo</a>
+        <div class="arrow-mobile left">
+                <a href="/en/claudio-castillo/eisen-portrait" onclick="gaClick('paintings-arrows', 'click-left', '/en/claudio-castillo/eisen-portrait');">&larr;</a>
+        </div>
+        <div class="arrow-mobile right">
+                <a href="/en/claudio-castillo/florida" onclick="gaClick('paintings-arrows', 'click-right', '/en/claudio-castillo/florida');">&rarr;</a>
+        </div>
+    </div>
+                <div class="hgroup-fixed"></div>
+                <article>
+                    
+
+
+
+
+
+
+
+<style>
+    .image-wrapper {
+        margin: 0 auto;
+    }
+    .image-title-container {
+        box-sizing: border-box;
+        text-align: left;
+    }
+    @media (max-width: 1600px) and (min-width: 720px) {
+            .artwork-info-block .main-content .image-wrapper img {
+                max-height: 400px !important;
+                max-width: 980px !important;
+            }
+            .artwork-info-block .main-content .image-wrapper {
+                width: 640px;
+            }
+            .artist-page.artwork-info-block .main-content .image-wrapper {
+                min-width: 640px;
+            }
+    }
+
+    @media (min-width: 1601px) {
+            .artwork-info-block .main-content .image-wrapper img {
+                 max-height: 500px !important;
+            }
+            .artwork-info-block .main-content .image-wrapper {
+                width: 640px;
+            }
+            .artist-page.artwork-info-block .main-content .image-wrapper {
+                min-width: 640px;
+            }
+    }
+
+    .artwork-info-block .main-content > .info {
+        box-sizing: border-box;
+        flex-grow: 1;
+        -webkit-flex-grow: 1;
+    }
+
+    /* mobile view */
+    @media (max-width: 720px) {
+        /* hide desktop header */
+         .artwork-info-block .main-content .info .painting-header {
+            display: none !important;
+        }
+
+        /* show mobile header */
+        section.content .artwork-title {
+            display: inline-block !important;
+        }
+
+        /* drom info block down */
+        .artwork-info-block .main-content .image-wrapper,
+        .artwork-info-block .main-content .image-wrapper img {
+            margin: 0 !important;
+        }
+
+        .artwork-info-block .main-content .info {
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+        }
+        .artwork-info-block .main-content .image-title-container {
+            width: 100%;
+        }
+        .artwork-info-block .main-content {
+            flex-direction: column;
+        }
+    }
+
+    /* iPad view */
+    @media (max-width: 1024px) and (min-width: 1024px) {
+
+        .artwork-info-block .main-content .info {
+            width: calc(100% - 640px);
+        }
+            
+            /* hide desktop header */
+            .artwork-info-block .main-content .info .painting-header {
+                display: none !important;
+            }
+
+            /* show mobile header */
+            section.content .artwork-title {
+                display: inline-block !important;
+            }
+
+            /* drop info block down */
+            .artwork-info-block .main-content .image-wrapper,
+            .artwork-info-block .main-content .image-wrapper img {
+                margin: 0 !important;
+            }
+
+            .artwork-info-block .main-content .info {
+                text-align: center;
+                max-width: none;
+                padding: 10px 10px 10px 10px;
+            }
+            .artwork-info-block .main-content .image-title-container {
+                width: 100%;
+            }
+            .artwork-info-block .main-content {
+                flex-direction: column;
+            }
+
+            
+    }
+
+    /* tablet view */
+    @media (max-width: 1023px) and (min-width: 720px) {
+       
+       
+            /* hide desktop header */
+            .artwork-info-block .main-content .info .painting-header {
+                display: none !important;
+            }
+
+            /* show mobile header */
+            section.content .artwork-title {
+                display: inline-block !important;
+            }
+
+            /* drop info block down */
+            .artwork-info-block .main-content .image-wrapper,
+            .artwork-info-block .main-content .image-wrapper img {
+                margin: 0 !important;
+            }
+
+            .artwork-info-block .main-content .info {
+                text-align: center;
+                max-width: none;
+                padding: 10px 10px 10px 10px;
+            }
+            .artwork-info-block .main-content .image-title-container {
+                width: 100%;
+            }
+            .artwork-info-block .main-content {
+                flex-direction: column;
+            }
+        
+    }
+
+    /* desktop view */
+    @media (min-width: 1025px) {
+        /* show desktop header */
+        .artwork-info-block .main-content .info .painting-header {
+            display: inline-block !important;
+        }
+
+        /* hide mobile header */
+        section.content .artwork-title {
+            display: none !important;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .artwork-info-block .main-content .image-wrapper,
+            .artwork-info-block .main-content .image-wrapper img {
+                margin: 0 auto !important;
+            }
+    }
+</style>
+
+
+<form name="paintingviewform" >
+    
+    <div class="artwork-info-block-container" itemscope itemtype="https://schema.org/Painting">
+        <div class="artwork-page artwork-info-block" >
+            <div class="main-content">
+                    <div class="image">
+                        <div class="image-wrapper">
+                            <a id="image-link" href="https://uploads5.wikiart.org/00103/images/claudio-castillo/tres-cipreses.jpg" title="Tres cipreses, 2008 - Claudio Castillo"
+                               ><img itemprop="image" src="https://uploads5.wikiart.org/00103/images/claudio-castillo/tres-cipreses.jpg" alt="Tres cipreses, 2008 - Claudio Castillo" title="Tres cipreses, 2008 - Claudio Castillo" style="display: block; max-width: 100%; height: auto; max-height: 100%; margin: 0 auto;" /></a>
+                            <div class="image-title-container">
+                                <div class="copyright-container">
+<div class="popup_overlay" id="copyFairUse">
+    <div class="popup">
+        <div class="popup_header">
+            <span class="text">Copyright Information </span>
+            <span class="popup_close"><a href="javascript:;" onclick="PopupModule.closePopup('copyFairUse');" id="copyFairUse_close">close</a></span>
+        </div>
+        <div class="popup_copyFairUse">
+                <p style="text-align:left;">Fair use rationale:</p>
+                <ol class="decimal">
+                    <li style="padding-bottom: 10px;">it is a historically significant artwork</li>
+                    <li style="padding-bottom: 10px;">the image is only being used for informational and educational purposes</li>
+                    <li style="padding-bottom: 10px;">the image is readily available on the internet</li>
+                    <li style="padding-bottom: 10px;">the image is a low resolution copy of the original artwork and is unsuitable for commercial use</li>
+                </ol>
+                <p><a href="http://www.copyright.gov/fls/fl102.html" target="_blank">More</a>&hellip;</p>
+                <div class="copyright-box">
+                    <p>WikiArt.org allows unlimited copying, distributing and displaying of the images of <b>public domain</b> artworks <b>solely</b>. We use here <span>Copyright term based on authors' deaths according to</span> <b>U.S. Copyright Law</b>, that is 70 years. <b>In other countries, the duration of copyright term may differ.</b> Please <a href="https://en.wikipedia.org/wiki/List_of_countries%27_copyright_length" target="_blank">check here</a> copyright length according to your country's legislation before you consider reproducing images borrowed from Wikipaintings.org</p>
+                    <p>Artworks <b>protected by copyright</b> are supposed to be used only for contemplation. Images of that type of artworks <b>are prohibited</b> for copying, printing, or any kind of reproducing and communicating to public since these activities may be considered <span><b>copyright infringement</b></span>.</p>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+                                        <div class="copyright iconCopy">
+                                                <a href="http://www.claudiocastillo.com">Claudio Castillo</a>
+                                        </div>
+                                        <div class="copyright iconFairUse">
+                                            <a class="pointer" onclick="PopupModule.bindPopupShow('copyFairUse')">Fair Use</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="info">
+                    <div class="info-line painting-header">
+                        <div class="arrow-container">
+                                <div class="arrow left">
+                                    <a href="/en/claudio-castillo/eisen-portrait" onclick="gaClick('paintings-arrows', 'click-left', '/en/claudio-castillo/eisen-portrait');">&larr;</a>
+                                </div>
+                                                            <div class="arrow right">
+                                    <a href="/en/claudio-castillo/florida" onclick="gaClick('paintings-arrows', 'click-right', '/en/claudio-castillo/florida');">&rarr;</a>
+                                </div>
+                        </div>
+                        <h1>Tres cipreses</h1>
+                        <div itemprop="creator" itemscope itemtype="https://schema.org/Person">
+                            <span itemprop="name">
+                                <a class="artist-name" href="/en/claudio-castillo">Claudio Castillo</a>
+                            </span>
+                        </div>
+                        
+                    </div>
+                    
+
+
+                    
+                            <div class="info-line">
+                                <span class="title">Date:</span>
+                                <span itemprop="dateCreated">2008</span>
+                            </div>
+
+
+                        <div class="info-line">
+                            <span class="title">Style:</span>
+                                                    <a href="/en/paintings-by-style/digital-art"><span>Digital Art</span></a>
+                        </div>
+                    
+
+
+
+                    
+
+
+                                        
+                        <div class="info-line references">
+                            <span class="title">File Source:</span>
+                            <a class="external" target="_blank" href="http://www.claudiocastillo.com/tres-cipreses.html">www.claudiocastillo.com</a>
+                        </div>
+
+
+                    
+                        
+                                        
+                </div>
+            </div>
+        </div>
+            <div class="text column-medium">
+                <span itemprop="description">
+                    Watercolor, animation, software. Synchronized lunar and tidal phases.
+Random, non-linear, generative artwork. Software on computer. One chance of repetition in approximately 8 Trillion years.
+http://www.claudiocastillo.com/tres-cipreses.html
+                </span>
+            </div>
+    </div>
+<div class="artist-menu fit-width">
+
+    
+
+<div class="desktop-only-block">
+    <hgroup class="artist-title">
+        <h2 id="h2Title"><span class="artist-name">Claudio Castillo:</span>&nbsp;&nbsp;Artworks by date</h2>
+    </hgroup>
+    <div class="hgroup-fixed" style="height: 0;"></div>
+    <ul class="sub-navi clear">
+
+            <li>
+                <a href="javascript:;">LIST OF WORKS</a>
+                <span class="switch">
+                    <ins>
+                        <a href="/en/claudio-castillo/mode/all-paintings" onclick="changePaintingsByJsonName('chronologically', event);">All Artworks by Date 1→10 (12)</a>
+                    </ins>
+                    <ins>
+                        <a href="/en/claudio-castillo/mode/latest-first" onclick="changePaintingsByJsonName('latest-first', event);">All Artworks by Date 10→1 (12)</a>
+                    </ins>
+                    <ins>
+                        <a href="/en/claudio-castillo/mode/all-paintings-by-alphabet" onclick="changePaintingsByJsonName('alphabetically', event);">All Artworks by Name (12)</a>
+                    </ins>
+                </span>
+            </li>
+            <li>
+                <a href="javascript:;">STYLES</a>
+                <span class="switch">
+                    <ins>
+                        <a href="javascript:;" onclick="changePaintingsByJsonName('Digital Art', event);">Digital Art (1)</a>
+                    </ins>
+                </span>
+            </li>
+            <li>
+                <a href="javascript:;">GENRES</a>
+                <span class="switch">
+                    <ins>
+                        <a href="javascript:;" onclick="changePaintingsByJsonName('Interactive', event);">Interactive (1)</a>
+                    </ins>
+                    <ins>
+                        <a href="javascript:;" onclick="changePaintingsByJsonName('Interactive Art', event);">Interactive Art (1)</a>
+                    </ins>
+                </span>
+        </li>
+    </ul>
+</div>
+<div class="mobile-only-block artist-menu-mobile-wrapper-anchor"></div>
+<div class="mobile-only-block artist-menu-mobile-wrapper">
+    <div class="artist-menu-mobile">
+        
+        <div class="artist-name">
+            <span>Claudio Castillo</span>
+        </div>
+        <div class="selectbox">
+            
+            <select id="artistMenuSelect" onchange="artistMenuSelectChanged()" >
+                        <optgroup label="LIST OF WORKS"></optgroup>
+                        <option selected value="chronologically">All Artworks by Date 1→10 (12)</option>
+                        <option  value="latest-first">All Artworks by Date 10→1 (12)</option>
+                        <option  value="alphabetically">All Artworks by Name (12)</option>
+                        <optgroup label="STYLES"></optgroup>
+                        <option  value="Digital Art">Digital Art (1)</option>
+                        <optgroup label="GENRES"></optgroup>
+                        <option  value="Interactive">Interactive (1)</option>
+                        <option  value="Interactive Art">Interactive Art (1)</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="sub-navi-fixed"></div>
+
+<script type="text/plain">
+    var resultType = "masonry";
+    var artistMenuData = [{ "_t" : "MenuSection", "Name" : null, "Url" : null, "Title" : "LIST OF WORKS", "ListTitle" : null, "Quantity" : 0, "Selected" : false }, { "_t" : "MenuLinkWithHref", "Name" : "chronologically", "Url" : "/en/claudio-castillo/mode/all-paintings?json=2", "Title" : "All Artworks by Date 1→10", "ListTitle" : null, "Quantity" : 12, "Selected" : true }, { "_t" : "MenuLinkWithHref", "Name" : "latest-first", "Url" : "/en/claudio-castillo/mode/latest-first?json=2", "Title" : "All Artworks by Date 10→1", "ListTitle" : null, "Quantity" : 12, "Selected" : false }, { "_t" : "MenuLinkWithHref", "Name" : "alphabetically", "Url" : "/en/claudio-castillo/mode/all-paintings-by-alphabet?json=2", "Title" : "All Artworks by Name", "ListTitle" : null, "Quantity" : 12, "Selected" : false }, { "_t" : "MenuSection", "Name" : null, "Url" : null, "Title" : "STYLES", "ListTitle" : null, "Quantity" : 0, "Selected" : false }, { "Name" : "Digital Art", "Url" : "/en/claudio-castillo/by-Style/digital-art?json=2", "Title" : "Digital Art", "ListTitle" : "STYLES", "Quantity" : 1, "Selected" : false }, { "_t" : "MenuSection", "Name" : null, "Url" : null, "Title" : "GENRES", "ListTitle" : null, "Quantity" : 0, "Selected" : false }, { "Name" : "Interactive", "Url" : "/en/claudio-castillo/by-Genre/interactive?json=2", "Title" : "Interactive", "ListTitle" : "GENRES", "Quantity" : 1, "Selected" : false }, { "Name" : "Interactive Art", "Url" : "/en/claudio-castillo/by-Genre/interactive-art?json=2", "Title" : "Interactive Art", "ListTitle" : "GENRES", "Quantity" : 1, "Selected" : false }];
+
+    var artistMenuSelectChanged = function() {
+        changePaintingsByJsonName(document.getElementById('artistMenuSelect').value, event);
+    };
+
+    var updateCurrentJson = function(type, sender) {
+        if (resultType === type) {
+            return;
+        }
+        resultType = type;
+        var jsonName = PaintingsRenderer.getInstance().getName();
+        changePaintingsByJsonName(jsonName == 'search' ? 'chronologically' : jsonName);
+        if (sender) {
+            var buttons = document.querySelectorAll('.mode-icon');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove('selected');
+            }
+            sender.classList.add('selected');
+        }
+    }
+
+    var changePaintingsByJsonName = function(jsonName, event) {
+        var jsonData = null;
+        for (i = 0; i < artistMenuData.length; i++) {
+            if (artistMenuData[i].Name == jsonName) {
+                jsonData = artistMenuData[i];
+                break;
+            }
+        }
+        if (jsonData == null) {
+            alert(jsonData + " not registered!");
+        }
+        
+        if (event) {
+            event.preventDefault();
+        }
+
+        $('.btn-more-loader-cube-wrapper').show();
+
+        console.log(jsonData.Url);
+        if (resultType == "masonry") {
+            PaintingsRenderer.init({
+                name: jsonData.Name,
+                dataUrl: jsonData.Url.replace(/\&resultType\=\w+/, ''),
+                pageSize: 60,
+                firstPageShift: 40
+                });
+            $(".wiki-tiles").show();
+
+        } else if (resultType == "text") {
+            PaintingsRenderer.close();
+            PaintingsRenderer.init({
+                name: jsonData.Name,
+                dataUrl: jsonData.Url + "&resultType=" + resultType,
+                resultType: resultType,
+                pageSize: 20,
+            });
+            $(".wiki-tiles").show();
+        } else if (resultType == "detailed") {
+            PaintingsRenderer.close();
+            PaintingsRenderer.init({
+                name: jsonData.Name,
+                dataUrl: jsonData.Url + "&resultType=" + resultType,
+                resultType: resultType,
+                pageSize: 5,
+            });
+            $(".wiki-tiles").show();
+        }
+
+
+        setListName((jsonData.ListTitle != null ? (jsonData.ListTitle + " &ndash; ") : "") + jsonData.Title);
+        document.querySelector('body').scrollTop = $(".artist-menu-mobile-wrapper-anchor").position().top;
+
+        console.log('jsonName = ' + jsonName);
+        console.log('jsonData.Name = ' + jsonData.Name);
+    };
+
+    var setListName = function(list) {
+        var renderer = headerRenderers['default'] || headerRenderers['default'];
+        renderer("Claudio Castillo", list);
+    }
+
+    var headerRenderers = {
+        "default": function(artist, list) {
+            $("#h2Title").html(
+                '<span class="artist-name">' + artist + ':&nbsp;&nbsp;</span>' +
+                ('<span class="artist-list">' + list + '</span>')
+            );
+        }
+    }
+</script>
+
+</div>
+</form>
+
+
+
+
+
+
+    <div style="display:none;" class="google-paintings">
+
+
+<ul>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/night-walker">Night Walker</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/bird">Bird</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/alans-painting">Alans Painting</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/tides">Tides</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/biombo">Biombo</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/lgtmo-landscape">Lgtmo Landscape</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/eisen-portrait">Eisen portrait</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/tres-cipreses">Tres cipreses</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/florida">Florida</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/underworks">Underworks</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/proof-of-life-imagen-fija">Proof of Life</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="loader">
+            <ul class="title">
+                <li>
+                    <a href="/en/claudio-castillo/flor-de-mar-imagen-fija">Flor de mar</a>
+                </li>
+                <li>
+                    <a href="/en/claudio-castillo/" title="About">Claudio Castillo</a>
+                </li>
+            </ul>
+        </li>
+</ul>
+
+
+<div id="pager" class="loader">
+    <ul>
+                    <li>
+                1
+            </li>
+            </ul>
+</div>
+
+</div>
+
+    <div class="standalone-loader-cube-wrapper">
+        <div class="standalone-loader-cube uil-cube-css" id="standalone-loader-cube">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="wiki-tiles" class="wiki-tiles loading">
+    </div>
+    <div class="btn-more-container" id="btn-more-container">
+            <div id="paintingCountBlock" class="countBlock">
+            </div>
+                    <button class="btn-more" id="btn-more" style="display: none;">
+                Load more
+            </button>
+                <div class="btn-more-loader-cube-wrapper" style="display: none;">
+            <div class="uil-cube-css" id="btn-more-loader">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/plain">    
+    
+    var _gaq = _gaq || [];
+    $(function(){
+        $st.Localization().AddLabel('Wikipainting.Painting.AdvertisementBestPriceArt', 'Order an oil painting reproduction');
+        $st.Localization().AddLabel('WikipaintingsV2.CountBlock.OutOf', 'out of');
+        imageSizes = [{ "SizeName" : "Blog", "Width" : 500, "Height" : 500, "NeedToFill" : false, "IsOptional" : true }, { "SizeName" : "Large", "Width" : 750, "Height" : 600, "NeedToFill" : false, "IsOptional" : true }, { "SizeName" : "PortraitSmall", "Width" : 220, "Height" : 275, "NeedToFill" : true, "IsOptional" : false }, { "SizeName" : "Portrait", "Width" : 400, "Height" : 400, "NeedToFill" : false, "IsOptional" : true }, { "SizeName" : "HalfHD", "Width" : 1366, "Height" : 800, "NeedToFill" : false, "IsOptional" : true }, { "SizeName" : "HD", "Width" : 1920, "Height" : 1200, "NeedToFill" : false, "IsOptional" : true }, { "SizeName" : "PinterestSmall", "Width" : 210, "Height" : 840, "NeedToFill" : false, "IsOptional" : false }, { "SizeName" : "PinterestLarge", "Width" : 280, "Height" : 1120, "NeedToFill" : false, "IsOptional" : false }];
+	    supersizedInit('/en/App/Painting/ImageData', imageSizes);
+
+        var data = [{ "_id" : "580c516fedc2c92a9cb672f3", "title" : "Night Walker", "year" : "?", "width" : 719, "height" : 635, "artistName" : "Claudio Castillo", "image" : "https://uploads4.wikiart.org/00103/images/claudio-castillo/night-walker.jpg", "map" : "0123**67*", "paintingUrl" : "/en/claudio-castillo/night-walker", "flags" : 0 }, { "_id" : "580c50bbedc2c92a9cb53a3d", "title" : "Bird", "year" : "?", "width" : 745, "height" : 587, "artistName" : "Claudio Castillo", "image" : "https://uploads5.wikiart.org/00103/images/claudio-castillo/bird.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/bird", "flags" : 0 }, { "_id" : "580c5052edc2c92a9cb4aa00", "title" : "Alans Painting", "year" : "?", "width" : 748, "height" : 497, "artistName" : "Claudio Castillo", "image" : "https://uploads6.wikiart.org/00103/images/claudio-castillo/alans-painting.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/alans-painting", "flags" : 0 }, { "_id" : "580c4d87edc2c92a9cb228fa", "title" : "Tides", "year" : "2005", "width" : 702, "height" : 1110, "artistName" : "Claudio Castillo", "image" : "https://uploads6.wikiart.org/00103/images/claudio-castillo/tides.jpg", "map" : "01234*67*", "paintingUrl" : "/en/claudio-castillo/tides", "flags" : 0 }, { "_id" : "580c4c49edc2c92a9cb06fb2", "title" : "Biombo", "year" : "2005", "width" : 640, "height" : 360, "artistName" : "Claudio Castillo", "image" : "https://uploads7.wikiart.org/00103/images/claudio-castillo/biombo.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/biombo", "flags" : 0 }, { "_id" : "580c4afeedc2c92a9caf149e", "title" : "Lgtmo Landscape", "year" : "2010", "width" : 703, "height" : 1143, "artistName" : "Claudio Castillo", "image" : "https://uploads7.wikiart.org/00103/images/claudio-castillo/lgtmo-landscape.jpg", "map" : "01234*67*", "paintingUrl" : "/en/claudio-castillo/lgtmo-landscape", "flags" : 0 }, { "_id" : "580c4450edc2c92a9ca53e25", "title" : "Eisen portrait", "year" : "2007", "width" : 576, "height" : 358, "artistName" : "Claudio Castillo", "image" : "https://uploads0.wikiart.org/00103/images/claudio-castillo/img-5441.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/eisen-portrait", "flags" : 0 }, { "_id" : "580c4007edc2c92a9c9fb961", "title" : "Tres cipreses", "year" : "2008", "width" : 640, "height" : 360, "artistName" : "Claudio Castillo", "image" : "https://uploads5.wikiart.org/00103/images/claudio-castillo/tres-cipreses.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/tres-cipreses", "flags" : 0 }, { "_id" : "580c386fedc2c92a9c96adec", "title" : "Florida", "year" : "2014", "width" : 1193, "height" : 662, "artistName" : "Claudio Castillo", "image" : "https://uploads8.wikiart.org/00103/images/claudio-castillo/florida.jpg", "map" : "0123**67*", "paintingUrl" : "/en/claudio-castillo/florida", "flags" : 0 }, { "_id" : "580c3ce5edc2c92a9c9c2973", "title" : "Underworks", "year" : "2010", "width" : 726, "height" : 491, "artistName" : "Claudio Castillo", "image" : "https://uploads2.wikiart.org/00103/images/claudio-castillo/underworks.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/underworks", "flags" : 0 }, { "_id" : "580bc755edc2c9a2b4f46398", "title" : "Proof of Life", "year" : "2011", "width" : 636, "height" : 1065, "artistName" : "Claudio Castillo", "image" : "https://uploads5.wikiart.org/00103/images/claudio-castillo/proof-of-life.jpg", "map" : "01234*67*", "paintingUrl" : "/en/claudio-castillo/proof-of-life-imagen-fija", "flags" : 0 }, { "_id" : "580bc234edc2c9a2b4eb3e24", "title" : "Flor de mar", "year" : "2010", "width" : 715, "height" : 479, "artistName" : "Claudio Castillo", "image" : "https://uploads3.wikiart.org/00103/images/claudio-castillo/flor-de-mar.jpg", "map" : "0*23**67*", "paintingUrl" : "/en/claudio-castillo/flor-de-mar-imagen-fija", "flags" : 0 }];
+
+    
+        PaintingsRenderer.init({
+            name: 'search',
+            dataUrl: '/en/claudio-castillo/tres-cipreses?json=2',
+            data: data,
+            pageSize: 60,
+            page: 1,
+            allPaingtingCount: 12,
+            firstPageShift: 40,       
+            preventDefaultListLoading: false
+        });
+
+	    $(".loader").remove();
+	    $(".wiki-tiles.loading").removeClass("loading");
+        hideStandaloneLoaderCube();
+    });
+        
+    function toogleArtistListHeight() {
+        var originalList = document.querySelector('.artists-group-list');
+        var list = originalList.cloneNode(true);
+        originalList.parentNode.removeChild(originalList);
+        
+        if (list.className.indexOf('limit-height') != -1) {
+            list.className = list.className.replace('limit-height', '').trim();
+            document.querySelector('.artists-list-show-all .hide').style.display = '';
+            document.querySelector('.artists-list-show-all .show').style.display = 'none';
+        } else {
+            list.className += ' limit-height';
+            document.querySelector('.artists-list-show-all .show').style.display = '';
+            document.querySelector('.artists-list-show-all .hide').style.display = 'none';
+        }
+        console.log(list);
+        document.querySelector('.artists-list-container')
+            .insertBefore(list, document.querySelector('.artists-list-show-all-container'));
+    }   
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/plain">
+    $(function () {
+        $(".image.loading").removeClass("loading");
+    });
+
+    PopupModule.init('copyPublicDomain');
+    PopupModule.init('copyFairUse');
+
+    
+    
+
+
+    var init = throttle(function (event) {
+        PaintingsRenderer.init({
+            name: "chronologically",
+            dataUrl: '/en/claudio-castillo/mode/all-paintings?json=2',
+            pageSize: 60,
+            page: 1,
+            openGallery: true,
+            galleryPosition: 7,
+            firstPageShift: 40
+        });
+        
+    }, 1000);
+    
+    document.querySelector('#image-link img').addEventListener('click', function(event) {
+        event.preventDefault();
+        init();
+    });
+</script>
+
+                    <div id="statusMessage" style="position: fixed; left: 50px; top: 5px; padding: 10px 20px; background: #337ab7; display: none; color: white; margin-bottom: 20px; font-weight: bold; border: 1px solid transparent; border-radius: 4px; z-index:9999;">
+    <span id="statusMessageBody"></span>
+</div>
+
+                </article>
+            </section>
+            
+
+<footer>
+    <ul class="navigation">
+        <li><a href="/">Home</a></li>
+        <li><a href="/en/about">About</a></li>
+        <li><a href="https://wikiart.uservoice.com">Feedback</a></li>
+        <li><a href="/en/donate">Donate</a></li>
+        <li class="desktop-only-inline-block"><a href="/en/terms-of-use">Terms of use</a></li>
+         
+        
+        <li class="language-footer">
+            <a id="lngFooter" class="languages-switch" href="javascript:;" title="Language">Language<i></i></a>
+            <div class="languages-switch-footer">
+                <ins class="language-item-footer"><a id=enlanguage href="/en/claudio-castillo/tres-cipreses">English</a></ins><ins class="language-item-footer"><a id=delanguage href="/de/claudio-castillo/tres-cipreses">Deutsch</a></ins><ins class="language-item-footer"><a id=eslanguage href="/es/claudio-castillo/tres-cipreses">Español</a></ins><ins class="language-item-footer"><a id=ptlanguage href="/pt/claudio-castillo/tres-cipreses">Portuguese</a></ins><ins class="language-item-footer"><a id=rulanguage href="/ru/claudio-castillo/tres-cipreses">Русский</a></ins><ins class="language-item-footer"><a id=uklanguage href="/uk/claudio-castillo/tres-cipreses">Українська</a></ins>
+            </div>
+        </li>
+        <li>
+            <a class="app-icon google-play" href="https://play.google.com/store/apps/details?id=com.ilit.wikipaintings">
+                <img src="https://d8xecf6b392xv.cloudfront.net/Content/images/google-play.png">
+            </a>
+        </li>
+    </ul>
+    
+    <div class="title">
+        WikiArt (WikiPaintings) on <a class="social" href="https://twitter.com/wikipaintings">Twitter</a> and <a class="social" href="https://www.facebook.com/wikiart.org">Facebook</a>
+        <span class="fb-iframe">
+            <div class="fb-like" data-href="https://www.facebook.com/wikiart.org" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        </span>
+    </div>
+</footer>
+            
+        </div>
+        
+
+            <script type="text/javascript">
+                var needToLoadSocialScripts = 'false';
+                function LoadScriptsNoSrc() { noSrsScriptsWereLoaded = !0, $('script[type="text/plain"]').each(function () { var e = $(this).attr("src"); e && "" != e ? _deferreds.push(e) : $("body").append($(this).attr("type", "text/javascript")), $(this).remove() }), jsloading() } function jsloading() { if (_deferreds.length) { var e = document.createElement("script"), t = _deferreds.shift(); e.src = t, e.addEventListener ? e.addEventListener("load", jsloadingComplete, !1) : e.readyState && (e.onreadystatechange = jsloadingComplete), document.getElementsByTagName("body")[0].appendChild(e) } else noSrsScriptsWereLoaded || LoadScriptsNoSrc() } function jsloadingComplete() { this.readyState && "loaded" != this.readyState && "complete" != this.readyState || jsloading() } var noSrsScriptsWereLoaded = !1, _deferreds = _deferreds || [];
+                _deferreds.unshift("https://uploads.wikiart.org/_v2/cdn/www/K5YGNEmJLd7HdAnOu0uUTFpyiHl8yRHPCCcz4M8KJzI1.gzip"),
+                window.addEventListener ? window.addEventListener("load", jsloading, !1) : window.attachEvent ? window.attachEvent("onload", jsloading) : window.onload = jsloading;
+            </script>
+                <script type="text/plain">
+            Init('586bc4b1edc2c9243c');
+            document.lang = 'en';
+            document.masonry = null;
+            document.afterMasonry = [];
+        </script>
+        <script type="text/plain">
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '1038592866179110',
+            xfbml: true,
+            status: true,
+            cookie: true,
+            oauth : true,
+            version: 'v2.5'
+        });
+        FB.Event.subscribe('auth.login', function(response) {
+            console.log('FB.Event.subscribe');
+            console.log(response);
+        });
+
+        window._SocialCallbacks = {}; 
+        window._SocialCallbacks.facebook = function() {
+            FB.ui({
+                method: 'share_open_graph',
+                action_type: 'og.likes'
+            }, function(response){});
+        };
+
+    };
+</script>
+<script type="text/plain">
+    document.afterMasonry.push(function() {
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20329506-1', 'auto');
+    ga('send', 'pageview');
+
+    gaTrack = function(path, title) {
+        ga('set', { page: path, title: title });
+        ga('send', 'pageview');
+    };
+    
+    gaClick = function(category, action, label) {
+        ga('send', 'event', category, action, label); 
+    };
+    if (needToLoadSocialScripts && needToLoadSocialScripts === 'true'){
+        _deferreds.push('//apis.google.com/js/platform.js');
+        _deferreds.push('//assets.pinterest.com/js/pinit.js');
+        _deferreds.push('//platform.twitter.com/widgets.js');
+    }
+    
+    _deferreds.push('//connect.facebook.net/en_US/sdk.js');
+    LoadScriptsNoSrc();
+    });
+</script>
+            <script type="text/plain">
+                document.afterMasonry.push(function () {
+                var cssBundle = document.createElement("style");
+                cssBundle.src = 'https://uploads.wikiart.org/_v2/cdn/www/GpwpzVA75LYnuiVZqO2J86eY43G7eoRfFvuQSKwuYNc1.gzip';
+                document.body.insertBefore(cssBundle, document.body.childNodes[0]);
+                _deferreds.push('/en/App/Home/MarkHasCss/' + 1);
+                LoadScriptsNoSrc();
+                });
+            </script>
+
+
+    </body>
+</html>
+
+<!-- 00.000 000: TopMenuService.GetVersion() start 
+00.000 017: TopmenuService.GetByLang() start 
+00.000 210: Code: 1 menu: 1 
+00.000 220: TopMenuService.GetVersion() end 
+00.000 230: TopMenuService.GetVersion() start 
+00.000 235: TopmenuService.GetByLang() start 
+00.000 354: Code: 1 menu: 1 
+00.000 364: TopMenuService.GetVersion() end 
+00.000 391: Action [View] started. 
+00.000 431: GetCountryByIp start 
+00.002 946: GetCountryByIp done 
+00.003 226: artist GetByLocalizedUrl start 
+00.003 238: get artist from global cache start 
+00.004 761: get artist from global cache found 
+00.004 774: painting GetByLocalizedUrl start 
+00.006 589: painting GetByLocalizedUrl end 
+00.006 620: ArtistService.GetById, no cache context passed 
+00.007 007: Before read 
+00.007 020: Painting reader entered 
+00.009 805: Painting reader - query ready 
+00.012 748: after read 
+00.014 892: total calculated 
+00.015 132: painting DictionaryValues get start 
+00.015 589: painting DictionaryValues get start 
+00.015 613: DictionariesOfArtistService ByArtist Entered 
+00.015 786: model.DictionariesOfArtist calculated 
+00.015 847: Action [View] done. 
+00.016 663: painting DictionaryValues get start 
+00.017 055: painting DictionaryValues get start 
+00.017 079: painting DictionaryValues get start 
+00.017 506: painting DictionaryValues get start 
+00.017 523: painting DictionaryValues get start 
+00.017 958: painting DictionaryValues get start 
+00.019 644: painting DictionaryValues get start 
+00.019 983: painting DictionaryValues get start 
+00.020 122: painting DictionaryValues get start 
+00.020 457: painting DictionaryValues get start 
+00.020 639: painting DictionaryValues get start 
+00.020 983: painting DictionaryValues get start 
+00.021 000: painting DictionaryValues get start 
+00.021 326: painting DictionaryValues get start 
+00.021 343: painting DictionaryValues get start 
+00.021 683: painting DictionaryValues get start 
+00.021 699: painting DictionaryValues get start 
+00.022 025: painting DictionaryValues get start 
+00.022 519: Before build artist menu 
+00.024 659: After build artist menu 
+00.025 120: _ViewPaintings start 
+00.025 253: _GooglePaintings start 
+00.025 629: _GooglePaintings end 
+00.025 663: google paintings done 
+00.026 245: Before json 
+00.027 187: After json 
+00.027 207: _ViewPaintings end 
+00.027 614: view done, layout start 
+00.028 663: Languages menu done 
+00.029 502: Render complete 
+-->

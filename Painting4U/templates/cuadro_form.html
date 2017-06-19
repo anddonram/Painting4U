@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Búsqueda de cuadro{% endblock %}
+
+{% block encabezado %}Búsqueda de cuadro{% endblock %}
+
+{% block contenido %}
+    <form id='formulario' method='POST' action=''>{% csrf_token %}
+    	{{ formulario.as_p }}
+
+          <button class="btn waves-effect waves-light" type="submit" value='Confirmar'>Enviar
+            <i class="material-icons right">send</i>
+          </button>
+
+    </form>
+
+    {{mensaje}}
+{% endblock %}

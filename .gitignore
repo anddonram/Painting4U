@@ -1,0 +1,4 @@
+#carpeta target
+.settings/
+.project
+.pydevproject
